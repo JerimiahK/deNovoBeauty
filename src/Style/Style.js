@@ -1,33 +1,50 @@
 export const style = {
-  // Main Color Palette
-  palette: {
-    primary: {
-      mainDark: "#0d0d0d",
-      mainLight: "#fff",
-    },
-  },
   // Navbar Styling
   navbarContainer: {
-    width: "100%",
-    height: "100%",
     display: "flex",
     justifyContent: "center",
   },
   navbar: {
-    backgroundColor: "#0d0d0d",
+    background: "linear-gradient(0deg, #fff 10%, #000 100%)",
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-evenly",
     height: "10vh",
-    width: "80vw",
-    marginTop: "50px",
-    borderRadius: 15,
+    width: "100vw",
   },
   navbarText: {
     textDecoration: "none",
-    color: "#fff",
-    fontSize: 40,
-    fontFamily: "font-family: 'Gruppo', cursive;",
+    color: "#000",
+    fontWeight: "bolder",
+    fontFamily: "'Gotu', sans-serif",
+  },
+  // Homepage & Logo Image Styling
+  heroContainer: {
+    background: "#000",
+    width: "100%",
+    height: "600px",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  logoImage: {
+    width: "auto",
+    height: "232px",
+  },
+  buttonContainer: {
+    background: "#fff",
+    borderRadius: "10px"
+  },
+  bookButton: {
+    background: "#fff",
+    boxShadow: "0 0 1px 5px #000",
+    color: "#0d0d0d",
+    margin: "7px",
+    fontWeight: "bolder",
+    fontSize: 20,
+    fontFamily: "'Gotu', sans-serif",
+    height: 80,
   },
 };

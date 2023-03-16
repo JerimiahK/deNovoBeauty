@@ -1,20 +1,20 @@
-import { style } from "../../Style/Style.js"
+import { style } from "../../Style/Style.js";
 
 export default function NavBar() {
   return (
     <div style={style.navbarContainer}>
       <div style={style.navbar}>
         <a style={style.navbarText} href="/">
-          Home
+          HOME
         </a>
         <a style={style.navbarText} href="/about">
-          About
+          ABOUT
         </a>
         <a style={style.navbarText} href="/services">
-          Services
+          SERVICES
         </a>
         <a style={style.navbarText} href="/connect">
-          Connect
+          CONNECT
         </a>
       </div>
     </div>
