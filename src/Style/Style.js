@@ -1,4 +1,3 @@
-// import HeroHome from "../components/Atoms/Pictures/heroHome";
 import HeroHome from "../Assets/Pictures/heroHome2.jpg";
 
 export const style = {
@@ -12,15 +11,6 @@ export const style = {
     display: "flex",
     justifyContent: "center",
   },
-  // navbar: {
-  //   display: "flex",
-  //   flexDirection: "row",
-  //   alignItems: "center",
-  //   justifyContent: "space-evenly",
-  //   height: "10vh",
-  //   width: "70vw",
-  //   paddingTop: 20,
-  // },
   // Homepage Header Styling
   heroContainer: {
     backgroundImage: `url(${HeroHome})`,
@@ -39,19 +29,20 @@ export const style = {
     height: "auto",
   },
   buttonContainer: {
-    background: "#FFFFFF",
+    background: "#e2cdfa",
+    borderRadius: 10,
   },
   bookButton: {
-    background: "#FFFFFF",
+    background: "#e2cdfa",
     border: "2px solid black",
-    boxShadow: "0 0 8px 5px white",
+    boxShadow: "0 0 10px 5px #e2cdfa",
     color: "#0d0d0d",
     margin: "2px",
     fontSize: 15,
-    fontFamily: "'Roboto', sans-serif",
+    fontFamily: "'Gotu', sans-serif",
     height: 80,
     width: 190,
-    borderRadius: "0",
+    borderRadius: 10,
     textAlign: "center",
   },
   // Homepage Testimonials Styling
