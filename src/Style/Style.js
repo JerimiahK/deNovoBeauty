@@ -1,20 +1,24 @@
+// import HeroHome from "../components/Atoms/Pictures/heroHome";
+import HeroHome from "../Assets/Pictures/heroHome2.jpg";
+
 export const style = {
   // Navbar Styling
   navbarContainer: {
+    background: "linear-gradient(0deg, #fff 40%, #000 100%)",
+    borderBottom: "2px solid #000",
+    width: "100vw",
     position: "sticky",
     top: 0,
     display: "flex",
     justifyContent: "center",
   },
   navbar: {
-    background: "linear-gradient(0deg, #fff 40%, #000 100%)",
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-evenly",
     height: "10vh",
-    width: "100vw",
-    borderBottom: "2px solid #000",
+    width: "70vw",
     paddingTop: 20,
   },
   navbarText: {
@@ -22,10 +26,14 @@ export const style = {
     color: "#000",
     fontWeight: "bolder",
     fontFamily: "'Gotu', sans-serif",
+    fontSize: 25,
   },
   // Homepage Header Styling
   heroContainer: {
-    background: "#000",
+    backgroundImage: `url(${HeroHome})`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
     width: "100%",
     height: "90vh",
     display: "flex",
