@@ -1,5 +1,10 @@
 .testimonialContainer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px;
+    padding-top: 75px;
 }

@@ -5,6 +5,7 @@
     top: 0;
     display: flex;
     justify-content: center;
+    animation: fadeIn 5s;
 }
 
 .navbar {
@@ -16,10 +17,13 @@
     width: 85vw;
 }
 
-/* Changes Nav Bar Font Size to 100% at >600px */
-@media screen and (max-width: 600px) {
-    .navButton {
-        font-size: 100%;
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
 
