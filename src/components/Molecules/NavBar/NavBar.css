@@ -1,5 +1,7 @@
 .navbarContainer {
+    z-index: 999;
     background: #202020;
+    opacity: 0.8;
     width: 100%;
     position: sticky;
     top: 0;

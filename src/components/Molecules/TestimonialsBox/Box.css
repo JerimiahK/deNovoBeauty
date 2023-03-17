@@ -1,6 +1,11 @@
 .testimonialsBox {
     margin-top: 75px;
     border: 2px solid black;
-    height: 90%;
+    height: 50%;
     width: 90%;
+}
+
+.c-img {
+    width: 100%;
+    height: auto;
 }
