@@ -19,7 +19,7 @@ export const style = {
     fontWeight: "bolder",
     fontFamily: "'Gotu', sans-serif",
   },
-  // Homepage & Logo Image Styling
+  // Homepage Header Styling
   heroContainer: {
     background: "#000",
     width: "100%",
@@ -49,4 +49,6 @@ export const style = {
     borderRadius: "0",
     textAlign: "center",
   },
+  // Homepage Testimonials Styling
+  
 };

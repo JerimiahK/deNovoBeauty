@@ -1,7 +1,7 @@
 import { style } from "../../Style/Style.js";
-import Logo from "../ReusableComponents/LogoImage/Logo";
-import NavBar from "../ReusableComponents/NavBar/NavBar";
-import HomeBookButton from "../ReusableComponents/Buttons/HomeBookButton";
+import Logo from "../Atoms/LogoImage/Logo";
+import NavBar from "../Molecules/NavBar/NavBar";
+import HomeBookButton from "../Atoms/Buttons/HomeBookButton";
 
 export default function HomeHeader() {
   return (
