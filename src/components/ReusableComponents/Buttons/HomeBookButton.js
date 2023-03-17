@@ -1,4 +1,4 @@
-import { style } from "../../Style/Style.js"
+import { style } from "../../../Style/Style.js"
 import { Button } from "@mui/material";
 
 export default function HomeBookButton() {

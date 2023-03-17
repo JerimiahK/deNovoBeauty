@@ -1,5 +1,5 @@
-import Logo from "../../Assets/Logo/Logo2.svg";
-import { style } from "../../Style/Style.js";
+import Logo from "../../../Assets/Logo/Logo2.svg";
+import { style } from "../../../Style/Style.js";
 
 export default function LogoImage() {
   return (
