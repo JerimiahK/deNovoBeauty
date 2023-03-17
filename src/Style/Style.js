@@ -1,17 +1,21 @@
 export const style = {
   // Navbar Styling
   navbarContainer: {
+    position: "sticky",
+    top: 0,
     display: "flex",
     justifyContent: "center",
   },
   navbar: {
-    background: "linear-gradient(0deg, #fff 10%, #000 100%)",
+    background: "linear-gradient(0deg, #fff 40%, #000 100%)",
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-evenly",
     height: "10vh",
     width: "100vw",
+    borderBottom: "2px solid #000",
+    paddingTop: 20,
   },
   navbarText: {
     textDecoration: "none",
@@ -19,14 +23,14 @@ export const style = {
     fontWeight: "bolder",
     fontFamily: "'Gotu', sans-serif",
   },
-  // Homepage & Logo Image Styling
+  // Homepage Header Styling
   heroContainer: {
     background: "#000",
     width: "100%",
-    height: "100vh",
+    height: "90vh",
     display: "flex",
     flexDirection: "column",
-    justifyContent: "space-between",
+    justifyContent: "space-evenly",
     alignItems: "center",
   },
   logoImage: {
@@ -44,9 +48,13 @@ export const style = {
     margin: "2px",
     fontSize: 15,
     fontFamily: "'Roboto', sans-serif",
-    height: 60,
-    width: 150,
+    height: 80,
+    width: 190,
     borderRadius: "0",
     textAlign: "center",
+  },
+  // Homepage Testimonials Styling
+  testimonialContainer: {
+    height: "100vh",
   },
 };
