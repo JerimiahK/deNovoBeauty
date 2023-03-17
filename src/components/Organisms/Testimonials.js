@@ -3,8 +3,7 @@ import { style } from "../../Style/Style.js"
 export default function Testimonials() {
   return (
     <section style={style.testimonialContainer}>
-        <div>
-        </div>
+      <h1>Testimonials</h1>
     </section>
   )
 }
