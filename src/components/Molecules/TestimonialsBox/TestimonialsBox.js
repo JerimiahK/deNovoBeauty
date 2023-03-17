@@ -1,10 +1,9 @@
-import { style } from "../../../Style/Style.js";
-import { Grid } from "@mui/material";
+import "./Box.css"
 
 export default function TestimonialsBox() {
   return (
-    <Grid style={style.testimonialBox}>
+    <div className="testimonialsBox">
       <p>Reviews are good</p>
-    </Grid>
+    </div>
   )
 }

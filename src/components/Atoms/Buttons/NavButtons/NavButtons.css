@@ -5,3 +5,10 @@
         sans-serif;
     font-size: 150%;
 }
+
+/* Changes Nav Bar Font Size to 100% at >600px */
+@media screen and (max-width: 600px) {
+    .navButton {
+        font-size: 100%;
+    }
+}
