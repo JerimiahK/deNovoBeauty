@@ -1,34 +1,23 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.navbarContainer {
+    background: #202020;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
 }
 
-body {
-    /* background-color: #78797a; */
-    background-color: #fff;
-}
-
-.navBar {
+.navbar {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     height: 10vh;
     width: 85vw;
-    padding-top: 20px;
-}
-
-.navButton {
-    text-decoration: none;
-    color: #000;
-    font-weight: bolder;
-    font-family: 'Gotu', sans-serif;
-    font-size: 160%;
 }
 
 /* Changes Nav Bar Font Size to 100% at >600px */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .navButton {
         font-size: 100%;
     }
