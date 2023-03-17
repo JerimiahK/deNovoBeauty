@@ -12,22 +12,15 @@ export const style = {
     display: "flex",
     justifyContent: "center",
   },
-  navbar: {
-    display: "flex",
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "space-evenly",
-    height: "10vh",
-    width: "70vw",
-    paddingTop: 20,
-  },
-  navbarText: {
-    textDecoration: "none",
-    color: "#000",
-    fontWeight: "bolder",
-    fontFamily: "'Gotu', sans-serif",
-    fontSize: 25,
-  },
+  // navbar: {
+  //   display: "flex",
+  //   flexDirection: "row",
+  //   alignItems: "center",
+  //   justifyContent: "space-evenly",
+  //   height: "10vh",
+  //   width: "70vw",
+  //   paddingTop: 20,
+  // },
   // Homepage Header Styling
   heroContainer: {
     backgroundImage: `url(${HeroHome})`,

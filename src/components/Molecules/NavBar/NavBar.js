@@ -7,7 +7,7 @@ import NavConnect from "../../Atoms/Buttons/NavConnect";
 export default function NavBar() {
   return (
     <nav style={style.navbarContainer}>
-      <div style={style.navbar}>
+      <div className="navBar">
         <NavHome />
         <NavAbout />
         <NavServices />
