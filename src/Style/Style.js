@@ -1,15 +1,6 @@
 import HeroHome from "../Assets/Pictures/heroHome2.jpg";
 
 export const style = {
-  // Navbar Styling
-  navbarContainer: {
-    background: "#202020",
-    width: "100%",
-    position: "sticky",
-    top: 0,
-    display: "flex",
-    justifyContent: "center",
-  },
   // Homepage Header Styling
   heroContainer: {
     backgroundImage: `url(${HeroHome})`,
@@ -35,7 +26,6 @@ export const style = {
   bookButton: {
     background: "#e2cdfa",
     border: "2px solid black",
-    // boxShadow: "0 0 10px 5px #e2cdfa",
     color: "#0d0d0d",
     margin: "2px",
     fontSize: 15,
@@ -47,6 +37,11 @@ export const style = {
   },
   // Homepage Testimonials Styling
   testimonialContainer: {
+    display: "flex",
+    flexDirection: "column",
     height: "100vh",
+  },
+  testimonialBox: {
+
   },
 };
