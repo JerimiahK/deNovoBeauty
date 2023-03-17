@@ -55,6 +55,6 @@ export const style = {
   },
   // Homepage Testimonials Styling
   testimonialContainer: {
-    height: "200vh",
+    height: "100vh",
   },
 };
