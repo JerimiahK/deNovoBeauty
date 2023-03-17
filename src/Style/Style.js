@@ -1,31 +1,22 @@
+import HeroHome from "../Assets/Pictures/heroHome2.jpg";
+
 export const style = {
   // Navbar Styling
   navbarContainer: {
+    background: "linear-gradient(0deg, #fff 40%, #000 100%)",
+    borderBottom: "2px solid #000",
+    width: "100vw",
     position: "sticky",
     top: 0,
     display: "flex",
     justifyContent: "center",
   },
-  navbar: {
-    background: "linear-gradient(0deg, #fff 40%, #000 100%)",
-    display: "flex",
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "space-evenly",
-    height: "10vh",
-    width: "100vw",
-    borderBottom: "2px solid #000",
-    paddingTop: 20,
-  },
-  navbarText: {
-    textDecoration: "none",
-    color: "#000",
-    fontWeight: "bolder",
-    fontFamily: "'Gotu', sans-serif",
-  },
   // Homepage Header Styling
   heroContainer: {
-    background: "#000",
+    backgroundImage: `url(${HeroHome})`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
     width: "100%",
     height: "90vh",
     display: "flex",
@@ -38,19 +29,20 @@ export const style = {
     height: "auto",
   },
   buttonContainer: {
-    background: "#FFFFFF",
+    background: "#e2cdfa",
+    borderRadius: 10,
   },
   bookButton: {
-    background: "#FFFFFF",
+    background: "#e2cdfa",
     border: "2px solid black",
-    boxShadow: "0 0 8px 5px white",
+    boxShadow: "0 0 10px 5px #e2cdfa",
     color: "#0d0d0d",
     margin: "2px",
     fontSize: 15,
-    fontFamily: "'Roboto', sans-serif",
+    fontFamily: "'Gotu', sans-serif",
     height: 80,
     width: 190,
-    borderRadius: "0",
+    borderRadius: 10,
     textAlign: "center",
   },
   // Homepage Testimonials Styling
