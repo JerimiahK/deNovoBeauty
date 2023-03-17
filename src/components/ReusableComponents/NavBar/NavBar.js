@@ -1,4 +1,4 @@
-import { style } from "../../Style/Style.js";
+import { style } from "../../../Style/Style.js";
 
 export default function NavBar() {
   return (
