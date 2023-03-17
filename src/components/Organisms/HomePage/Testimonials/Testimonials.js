@@ -1,11 +1,12 @@
 import "./Testimonials.css";
 import TestimonialsBox from "../../../Molecules/TestimonialsBox/TestimonialsBox";
+import HomeWhy from "../../../Atoms/Text/Homepage/Why";
 
 export default function Testimonials() {
   return (
     <section className="testimonialContainer">
-      <h1>Hear What Customers Are Saying About Me!</h1>
+      <HomeWhy />
       <TestimonialsBox />
     </section>
-  )
+  );
 }
