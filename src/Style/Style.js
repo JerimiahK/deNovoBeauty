@@ -3,9 +3,8 @@ import HeroHome from "../Assets/Pictures/heroHome2.jpg";
 export const style = {
   // Navbar Styling
   navbarContainer: {
-    background: "linear-gradient(0deg, #fff 40%, #000 100%)",
-    borderBottom: "2px solid #000",
-    width: "100vw",
+    background: "#202020",
+    width: "100%",
     position: "sticky",
     top: 0,
     display: "flex",
@@ -31,15 +30,16 @@ export const style = {
   buttonContainer: {
     background: "#e2cdfa",
     borderRadius: 10,
+    marginBottom: "50px",
   },
   bookButton: {
     background: "#e2cdfa",
     border: "2px solid black",
-    boxShadow: "0 0 10px 5px #e2cdfa",
+    // boxShadow: "0 0 10px 5px #e2cdfa",
     color: "#0d0d0d",
     margin: "2px",
     fontSize: 15,
-    fontFamily: "'Gotu', sans-serif",
+    fontFamily: "'Roboto', serif",
     height: 80,
     width: 190,
     borderRadius: 10,

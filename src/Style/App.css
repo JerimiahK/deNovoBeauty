@@ -21,10 +21,10 @@ body {
 
 .navButton {
     text-decoration: none;
-    color: #000;
-    font-weight: bolder;
-    font-family: 'Gotu', sans-serif;
-    font-size: 160%;
+    color: #99a9b5;
+    font-family: 'Urbanist',
+        sans-serif;
+    font-size: 150%;
 }
 
 /* Changes Nav Bar Font Size to 100% at >600px */
