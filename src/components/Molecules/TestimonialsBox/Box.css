@@ -4,3 +4,8 @@
     height: 90%;
     width: 90%;
 }
+
+.c-img {
+    width: 480px;
+    height: auto;
+}
