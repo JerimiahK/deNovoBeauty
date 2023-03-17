@@ -1,10 +1,10 @@
 import Logo from "../../../Assets/Logo/Logo.svg";
-import { style } from "../../../Style/Style.js";
+import "./Pictures.css"
 
 export default function LogoImage() {
   return (
     <a href="/">
-      <img alt="The De Novo Beauty logo" style={style.logoImage} src={Logo} />
+      <img alt="The De Novo Beauty logo" className="logoImage" src={Logo} />
     </a>
   );
 }

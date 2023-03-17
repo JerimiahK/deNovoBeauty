@@ -1,8 +1,8 @@
-import { style } from "../../../Style/Style.js"
+import "./Testimonials.css";
 
 export default function Testimonials() {
   return (
-    <section style={style.testimonialContainer}>
+    <section className="testimonialContainer">
       <h1>Testimonials</h1>
     </section>
   )

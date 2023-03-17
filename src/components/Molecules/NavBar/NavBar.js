@@ -1,8 +1,8 @@
 import "./NavBar.css"
-import NavHome from "../../Atoms/Buttons/NavHome";
-import NavAbout from "../../Atoms/Buttons/NavAbout";
-import NavServices from "../../Atoms/Buttons/NavServices";
-import NavConnect from "../../Atoms/Buttons/NavConnect";
+import NavHome from "../../Atoms/Buttons/NavButtons/NavHome";
+import NavAbout from "../../Atoms/Buttons/NavButtons/NavAbout";
+import NavServices from "../../Atoms/Buttons/NavButtons/NavServices";
+import NavConnect from "../../Atoms/Buttons/NavButtons/NavConnect";
 
 export default function NavBar() {
   return (
