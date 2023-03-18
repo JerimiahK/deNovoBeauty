@@ -1,7 +1,7 @@
 export default function Facials() {
     return (
         <div className="serviceContainer">
-            <h1 className="serviceName">Facials</h1>
+            <h1 className="serviceName">Facial Treatments</h1>
             <p className="serviceText">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
