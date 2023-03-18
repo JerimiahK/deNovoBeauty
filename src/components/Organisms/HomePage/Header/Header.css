@@ -1,5 +1,5 @@
 .heroContainer {
-    background-image: url("../../../../Assets/Pictures/heroHome2.jpg");
+    /* background-image: url("../../../../Assets/Pictures/heroHome2.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -14,7 +14,7 @@
 
 @keyframes fadeIn {
     0% {
-        opacity: 0.3;
+        opacity: 0;
     }
 
     100% {
