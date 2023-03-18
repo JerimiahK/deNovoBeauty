@@ -6,12 +6,12 @@ import Footer from "../components/Molecules/Footer/Footer";
 
 export default function Homepage() {
   return (
-    <>
-      <HomeHeader />
-      <NavBar />
-      <Testimonials />
-      <Services />
-      <Footer />
-    </>
+      <>
+          <NavBar />
+          <HomeHeader />
+          <Testimonials />
+          <Services />
+          <Footer />
+      </>
   );
 }
