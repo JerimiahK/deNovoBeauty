@@ -1,5 +1,9 @@
+import InstagramIcon from "@mui/icons-material/Instagram";
+import Button from "@mui/material/Button";
+import "./icons.css";
+
 export default function Instagram() {
-  return (
-    <div>Instagram</div>
-  )
+    return (
+      <Button className="socialButton" startIcon={<InstagramIcon className="socialIcon" />} target="_blank"/>
+    )
 }
