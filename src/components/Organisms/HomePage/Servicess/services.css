@@ -1,6 +1,6 @@
 .servicesContainer {
     /* background-color: #a38db2; */
-    background-color: rgb(113, 1, 113);
+    background-color: #9c85c0;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -8,6 +8,6 @@
     align-items: center;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 32px;
-    padding: 20% 0 20% 0;
+    padding: 10% 0 10% 0;
     text-align: center;
 }
