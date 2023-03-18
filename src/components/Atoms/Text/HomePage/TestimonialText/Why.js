@@ -11,13 +11,7 @@ export default function homeWhy() {
         convallis tellus. Lectus sit amet est placerat in egestas erat
         imperdiet. Cras pulvinar mattis nunc sed blandit libero volutpat sed
         cras. Amet mattis vulputate enim nulla aliquet porttitor. Feugiat sed
-        lectus vestibulum mattis. Ut etiam sit amet nisl purus. Libero id
-        faucibus nisl tincidunt eget nullam. Massa eget egestas purus viverra
-        accumsan in nisl. Sed elementum tempus egestas sed sed. Vitae congue eu
-        consequat ac. Faucibus a pellentesque sit amet porttitor eget dolor.
-        Cras sed felis eget velit. Laoreet suspendisse interdum consectetur
-        libero id faucibus nisl tincidunt eget. Non blandit massa enim nec dui
-        nunc mattis.
+        lectus vestibulum mattis. Ut etiam sit amet nisl purus. 
       </h5>
     </div>
   );
