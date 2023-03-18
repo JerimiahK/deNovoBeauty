@@ -1,7 +1,6 @@
 .servicesContainer {
     background-color: rgb(141, 161, 178);
     color: #fff;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

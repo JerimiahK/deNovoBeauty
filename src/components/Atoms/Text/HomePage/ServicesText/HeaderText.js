@@ -2,7 +2,7 @@ import "./servicesText.css";
 
 export default function ServicesText() {
     return (
-        <div className="servicesText">
+        <div className="headerContainer">
             <h1>De Novo Beauty</h1>
             <h3 className="headerLarge">Popular Services</h3>
             {/* <h5>

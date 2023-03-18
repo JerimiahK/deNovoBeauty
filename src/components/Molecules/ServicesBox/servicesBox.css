@@ -1,6 +1,16 @@
 .servicesBox {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
+    padding: 30px;
+}
+
+@media screen and (max-width: 770px) {
+    .servicesBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 }
