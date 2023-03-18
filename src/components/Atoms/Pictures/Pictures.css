@@ -4,7 +4,11 @@
 
 .logoImage {
     display: block;
-    height: 70vh;
+    height: 100%;
+}
+
+.logoFooterContainer {
+    height: 100%;
 }
 
 .logoFooter {

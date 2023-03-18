@@ -3,6 +3,12 @@ import "./Pictures.css";
 
 export default function LogoFooter() {
     return (
-        <img alt="The De Novo Beauty logo" className="logoFooter" src={Logo} />
+        <a className="logoFooterContainer" href="/">
+            <img
+                alt="The De Novo Beauty logo"
+                className="logoFooter"
+                src={Logo}
+            />
+        </a>
     );
 }
