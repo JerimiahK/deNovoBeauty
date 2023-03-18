@@ -1,19 +1,18 @@
-.buttonContainer {
+.contactButtonContainer {
     background-color: transparent;
 }
 
-.button {
+.contactButton {
     background-color: transparent;
-    color: #fff;
+    color: #000;
     font-weight: bolder;
     padding: 15px;
-    border: #fff solid 1px;
+    border: #000 solid 1px;
     border-radius: 5px;
     text-align: center;
 
 }
 
-.buttonContainer:hover {
-    background-color: rgba(70, 202, 246, 0.498); 
+.contactButton:hover {
+    background-color: rgba(44, 44, 44, 0.498);
 }
-
