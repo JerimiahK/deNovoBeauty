@@ -2,9 +2,10 @@ import "./servicesText.css";
 
 export default function ServicesText() {
     return (
-        <div className="servicesText">
-            <h1 className="header">Services</h1>
-            <h5>
+        <div className="headerContainer">
+            <h1>De Novo Beauty</h1>
+            <h3 className="headerLarge">Popular Services</h3>
+            {/* <h5>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -12,7 +13,7 @@ export default function ServicesText() {
                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </h5>
+            </h5> */}
         </div>
     );
 }

@@ -1,0 +1,13 @@
+.buttonContainer {
+    background-color: transparent;
+}
+
+.button {
+    background-color: transparent;
+    color: #fff;
+    font-weight: bolder;
+    padding: 15px;
+    width: 120%;
+    border: #fff solid 1px;
+    border-radius: 5px;
+}

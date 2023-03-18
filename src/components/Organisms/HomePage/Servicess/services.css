@@ -1,13 +1,12 @@
 .servicesContainer {
     background-color: rgb(141, 161, 178);
     color: #fff;
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 32px;
-    padding: 5% 0 10% 0;
+    padding: 10% 0 0% 0;
     text-align: center;
 }
