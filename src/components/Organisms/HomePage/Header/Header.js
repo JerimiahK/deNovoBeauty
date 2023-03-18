@@ -6,9 +6,9 @@ import HeroImage from "../../../Atoms/Pictures/heroImage";
 export default function HomeHeader() {
   return (
       <section className="heroContainer">
-        <HeroImage />
-        <Logo />
-        <HomeBookButton />
+          <Logo />
+          <HomeBookButton />
+          <HeroImage />
       </section>
   );
 }
