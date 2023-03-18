@@ -4,8 +4,12 @@
 
 .logoImage {
     display: block;
-    width: 100vw;
     height: 70vh;
+}
+
+.logoFooter {
+    display: block;
+    height: 100%;
 }
 
 .heroImageContainer {

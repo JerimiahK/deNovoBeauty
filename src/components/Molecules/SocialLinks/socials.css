@@ -1,0 +1,11 @@
+.socialsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
