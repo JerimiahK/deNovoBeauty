@@ -1,9 +1,7 @@
 .socialsContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    width: fit-content;
-    height: 100%;
+    justify-content: center;
 }
 
 .rightContainer {
