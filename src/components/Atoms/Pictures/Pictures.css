@@ -1,6 +1,16 @@
+.logoContainer {
+    height: 70%;
+}
+
 .logoImage {
-    width: 100%;
+    display: block;
+    width: auto;
+    height: 100vh;
+}
+
+.heroImageContainer {
     height: 100%;
+    width: 100%;
 }
 
 .heroImage {

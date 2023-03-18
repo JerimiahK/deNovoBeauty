@@ -3,7 +3,7 @@ import "./Pictures.css"
 
 export default function LogoImage() {
   return (
-    <a href="/">
+    <a className="logoContainer" href="/">
       <img alt="The De Novo Beauty logo" className="logoImage" src={Logo} />
     </a>
   );
