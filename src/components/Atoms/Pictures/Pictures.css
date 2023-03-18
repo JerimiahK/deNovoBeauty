@@ -1,11 +1,12 @@
 .logoImage {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .heroImageContainer {
     z-index: -1;
     width: 100%;
+    padding: 4rem 0;
 }
 
 .heroImage {
