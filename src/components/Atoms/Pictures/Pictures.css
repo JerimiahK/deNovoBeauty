@@ -7,6 +7,11 @@
     height: 70vh;
 }
 
+.logoFooter {
+    display: block;
+    height: 100%;
+}
+
 .heroImageContainer {
     height: 100%;
     width: 100%;
