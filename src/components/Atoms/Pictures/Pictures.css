@@ -3,13 +3,8 @@
     height: 100%;
 }
 
-.heroImageContainer {
-    z-index: -1;
-    width: 100%;
-    padding: 4rem 0;
-}
-
 .heroImage {
+    z-index: -1;
     object-fit: cover;
     width: 100%;
     height: 100%;
