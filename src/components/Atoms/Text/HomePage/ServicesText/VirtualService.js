@@ -3,7 +3,7 @@ import "./servicesText.css";
 export default function VirtualService() {
     return (
         <div className="serviceContainer">
-            <h1 className="serviceName">Virtual Services</h1>
+            <h1 className="serviceNameAlt">Virtual Services</h1>
             <p className="serviceText">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
