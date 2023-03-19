@@ -1,5 +1,5 @@
-import Logo from "../../../Assets/Logo/Logo.svg";
-import "./Pictures.css"
+import Logo from "../../../Assets/Logo/Logo.png";
+import "./pictures.css";
 
 export default function LogoImage() {
   return (

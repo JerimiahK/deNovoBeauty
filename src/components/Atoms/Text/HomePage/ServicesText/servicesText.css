@@ -9,6 +9,7 @@
 
 .serviceName {
     font-weight: bolder;
+    font-size: 120%;
 }
 
 .serviceText {
@@ -18,5 +19,6 @@
 @media screen and (max-width: 770px) {
     .serviceContainer {
         width: 100%;
+        margin: 5% 0 5% 0;
     }
 }

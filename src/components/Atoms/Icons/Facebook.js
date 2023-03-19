@@ -7,6 +7,7 @@ export default function Instagram() {
         <Button
             startIcon={<FacebookIcon className="socialIcon" />}
             target="_blank"
+            href="https://www.facebook.com/denovobeautyllc"
         />
     );
 }

@@ -4,6 +4,11 @@ import "./icons.css";
 
 export default function Instagram() {
     return (
-      <Button className="socialButton" startIcon={<InstagramIcon className="socialIcon" />} target="_blank"/>
-    )
+        <Button
+            className="socialButton"
+            startIcon={<InstagramIcon className="socialIcon" />}
+            target="_blank"
+            href="https://www.instagram.com/denovo.beauty/"
+        />
+    );
 }

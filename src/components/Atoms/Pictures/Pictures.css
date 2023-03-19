@@ -1,19 +1,18 @@
-.logoContainer {
-    height: 60%;
-}
-
 .logoImage {
-    display: block;
-    height: 70vh;
+    height: auto;
+    width: 60vw;
 }
 
 .logoFooterContainer {
     height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .logoFooter {
     display: block;
-    height: 100%;
+    height: 50%;
+    width: auto;
 }
 
 .heroImageContainer {
@@ -28,4 +27,11 @@
     height: 100%;
     position: absolute;
     top: 0;
+}
+
+@media screen and (max-width: 850px) {
+    .logoImage {
+            height: auto;
+            width: 100vw;
+        }
 }
