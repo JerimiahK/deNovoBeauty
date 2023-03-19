@@ -1,5 +1,5 @@
 import Image from "../../../Assets/Pictures/HeroImage/heroHome2.avif";
-import "./pictures.css";
+import "./Pictures.css";
 
 export default function HeroImage() {
     return (
