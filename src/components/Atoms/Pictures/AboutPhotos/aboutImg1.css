@@ -1,3 +1,9 @@
 .aboutImg1 {
-    height: 20px;
+    height: 467px;
+}
+
+@media screen and (max-width: 600px) {
+    .aboutImg1 {
+        height: 300px;
+    }
 }
