@@ -1,5 +1,5 @@
 import Logo from "../../../../Assets/Logo/Logo.png";
-import "./logo.css";
+import "./logoFooter.css";
 
 export default function LogoFooter() {
     return (

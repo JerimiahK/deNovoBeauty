@@ -1,0 +1,11 @@
+.logoFooterContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logoFooter {
+    display: block;
+    height: 50%;
+    width: auto;
+}

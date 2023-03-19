@@ -1,5 +1,12 @@
-export default function Connect() {
+import "./connect.css";
+import NavBar from "../../Molecules/NavBar/NavBar";
+import Footer from "../../Molecules/Footer/Footer";
+
+export default function ConnectContainer() {
   return (
-    <div>Connect</div>
+    <div>
+      <NavBar />
+      <Footer />
+    </div>
   )
 }
