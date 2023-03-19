@@ -1,4 +1,4 @@
-import "./Box.css";
+import "./testimonialBox.css";
 import Carousel from "react-bootstrap/Carousel";
 
 export default function TestimonialsBox() {

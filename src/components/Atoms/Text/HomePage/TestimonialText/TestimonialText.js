@@ -1,4 +1,4 @@
-import "./whyText.css";
+import "./testimonialText.css";
 
 export default function homeWhy() {
   return (

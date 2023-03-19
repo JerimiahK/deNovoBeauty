@@ -1,4 +1,4 @@
-import "./services.css";
+import "./servicesSection.css";
 import ServicesText from "../../../Atoms/Text/HomePage/ServicesText/HeaderText";
 import ServicesBox from "../../../Molecules/ServicesBox/ServicesBox";
 import ServicesButton from "../../../Atoms/Buttons/ServicesButton/ServicesButton";

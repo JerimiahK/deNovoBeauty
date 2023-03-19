@@ -1,4 +1,4 @@
-import "./socials.css";
+import "./socialLinks.css";
 import FacebookIcon from "../../Atoms/Icons/Facebook";
 import InstagramIcon from "../../Atoms/Icons/Instagram";
 
