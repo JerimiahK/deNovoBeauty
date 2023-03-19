@@ -1,16 +1,20 @@
 import "./servicesBox.css"
 import PersonalMakeup from "../../Atoms/Text/HomePage/ServicesText/PersonalMakeup"
 import Editorial from "../../Atoms/Text/HomePage/ServicesText/Editorial";
-import Facials from "../../Atoms/Text/HomePage/ServicesText/Facials";
+import Bridal from "../../Atoms/Text/HomePage/ServicesText/Bridal";
 import Tutorials from "../../Atoms/Text/HomePage/ServicesText/Tutorials";
+import PersonalServices from "../../Atoms/Text/HomePage/ServicesText/PersonalServices";
+import VirtualService from "../../Atoms/Text/HomePage/ServicesText/VirtualService";
 
 export default function ServicesBox() {
   return (
-    <div className="servicesBox">
-      <PersonalMakeup />
-      <Tutorials />
-      <Editorial />
-      <Facials />
-    </div>
-  )
+      <div className="servicesBox">
+          <Bridal />
+          <PersonalMakeup />
+          <Tutorials />
+          <Editorial />
+          <PersonalServices />
+          <VirtualService />
+      </div>
+  );
 }
