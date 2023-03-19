@@ -12,6 +12,12 @@
     font-size: 120%;
 }
 
+.serviceNameAlt {
+    margin-top: 20%;
+    font-weight: bolder;
+    font-size: 120%;
+}
+
 .serviceText {
     font-size: 75%;
 }
@@ -20,5 +26,11 @@
     .serviceContainer {
         width: 100%;
         margin: 5% 0 5% 0;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .serviceNameAlt {
+        margin-top: 0;
     }
 }
