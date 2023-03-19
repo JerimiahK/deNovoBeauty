@@ -2,3 +2,9 @@
     height: 467px;
     margin: 2.5% 0 2.5% 0;
 }
+
+@media screen and (max-width: 600px) {
+    .aboutImg1 {
+        height: 300px;
+    }
+}
