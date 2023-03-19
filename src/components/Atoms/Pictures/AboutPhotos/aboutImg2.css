@@ -1,9 +1,5 @@
 .aboutImg2 {
     height: 467px;
+    margin: 2.5% 0 2.5% 0;
 }
 
-@media screen and (max-width: 600px) {
-    .aboutImg2 {
-        height: 300px;
-    }
-}
