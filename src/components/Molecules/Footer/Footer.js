@@ -1,6 +1,6 @@
 import "./footer.css";
-import Socials from "../../../Molecules/SocialLinks/Socials";
-import LogoFooter from "../../../Atoms/Pictures/LogoFooter";
+import Socials from "../SocialLinks/Socials";
+import LogoFooter from "../../Atoms/Pictures/LogoFooter";
 
 export default function Footer() {
   return (

@@ -1,17 +1,17 @@
 import { Route, Routes } from "react-router-dom";
 import Homepage from "./pages/Homepage";
-import About from "./pages/About";
-import Services from "./pages/Services";
-import Connect from "./pages/Connect";
+import AboutPage from "./pages/AboutPage";
+import ServicesPage from "./pages/ServicesPage";
+import ConnectPage from "./pages/ConnectPage";
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/connect" element={<Connect />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/connect" element={<ConnectPage />} />
       </Routes>
     </>
   );
