@@ -1,0 +1,13 @@
+.heroImageContainer {
+    height: 100%;
+    width: 100%;
+}
+
+.heroImage {
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}

@@ -1,0 +1,10 @@
+.headshot {
+    height: 500px;
+    width: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .headshot {
+        height: 300px;
+    }
+}
