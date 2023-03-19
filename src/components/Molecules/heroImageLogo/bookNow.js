@@ -1,5 +1,5 @@
 import "./bookNow.css";
-import Logo from "../../Atoms/Pictures/Logo";
+import Logo from "../../Atoms/Pictures/Logo/Logo";
 import Button from "../../Atoms/Buttons/HeaderButton/HomeBookButton";
 
 export default function bookNow() {
