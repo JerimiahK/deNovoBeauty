@@ -1,9 +1,10 @@
 import "./NavButtons.css";
+import {Link} from "react-router-dom";
 
 export default function NavBarButton() {
   return (
-    <a className="navButton" href="/services">
-      Services
-    </a>
+      <Link className="navButton" to="/services">
+          Services
+      </Link>
   );
 }

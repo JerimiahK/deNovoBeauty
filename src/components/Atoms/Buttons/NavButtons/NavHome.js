@@ -1,9 +1,10 @@
 import "./NavButtons.css";
+import {Link} from "react-router-dom";
 
 export default function NavBarButton() {
   return (
-    <a className="navButton" href="/">
-      Home
-    </a>
+      <Link className="navButton" to="/">
+          Home
+      </Link>
   );
 }
