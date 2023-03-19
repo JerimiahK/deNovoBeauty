@@ -1,4 +1,4 @@
-import Logo from "../../../Assets/Logo/Logo.svg";
+import Logo from "../../../Assets/Logo/Logo.png";
 import "./Pictures.css"
 
 export default function LogoImage() {
