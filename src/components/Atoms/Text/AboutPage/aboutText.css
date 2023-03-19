@@ -1,0 +1,10 @@
+.aboutHeaderText {
+    text-align: center;
+}
+
+.aboutTextContainer {
+    padding: 1% 6% 6% 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

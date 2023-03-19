@@ -6,7 +6,7 @@ export default function Headshot() {
         <div className="img1Container">
             <img
                 alt="De Novo Owner Victoria Sanchez"
-                className="aboutImg1"
+                className="img1"
                 src={AboutImg1}
             />
         </div>

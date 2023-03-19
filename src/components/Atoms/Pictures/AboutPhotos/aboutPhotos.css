@@ -1,4 +1,10 @@
-.aboutImg1 {
+.img1 {
     height: 500px;
     width: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .img1 {
+        height: 300px;
+    }
 }
