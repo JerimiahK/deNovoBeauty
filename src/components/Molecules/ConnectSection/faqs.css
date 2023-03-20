@@ -1,4 +1,5 @@
 .faqsContainer {
+    text-align: center;
     display: flex;
     flex-direction: column;
     width: 45%;
