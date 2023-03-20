@@ -1,0 +1,16 @@
+.emailContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #23bcf3c3; */
+    color: #000;
+    width: 60%;
+    margin: 5%;
+    height: 60px;
+    font-size: 200%;
+}
+
+.emailIcon {
+    transform: scale(4);
+}
