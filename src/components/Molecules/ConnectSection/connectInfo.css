@@ -6,3 +6,7 @@
     height: 100%;
     text-align: center;
 }
+
+.connectHeaderText {
+    font-size: 300%;
+}
