@@ -1,13 +1,13 @@
 import "./servicesPage.css";
 import NavBar from "../../Molecules/NavBar/NavBar";
 import Footer from "../../Molecules/Footer/Footer";
-import ServicesSection from "../../Molecules/ServicesSection/ServicesSection";
+import ServicesContainer from "../../Molecules/ServicesSection/ServicesContainer";
 
 export default function ServicesPage() {
     return (
         <div>
             <NavBar />
-            <ServicesSection />
+            <ServicesContainer />
             <Footer />
         </div>
     )
