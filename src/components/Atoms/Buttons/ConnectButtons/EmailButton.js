@@ -6,12 +6,19 @@ export default function EmailButton() {
     return (
         <div className="emailContainer">
             <Button
-                startIcon={<EmailIcon className="emailIcon" />}
-                style={{ color: "#000" }}
+                style={{color: "#000"}}
                 target="_blank"
                 href={`mailto:denovobeauty.info@gmail.com`}
-            />
-            <div>denovobeauty.info@gmail.com</div>
+            >
+                <EmailIcon className="emailIcon" />
+            </Button>
+            <Button
+                style={{color: "#000"}}
+                target="_blank"
+                href={`mailto:denovobeauty.info@gmail.com`}
+            >
+                <p className="emailText">denovobeauty.info@gmail.com</p>
+            </Button>
         </div>
     );
 }

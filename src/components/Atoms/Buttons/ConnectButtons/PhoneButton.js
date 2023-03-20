@@ -6,12 +6,23 @@ export default function PhoneButton() {
     return (
         <div className="phoneContainer">
             <Button
-                startIcon={<PhoneIcon className="phoneIcon" />}
-                style={{color: "#000"}}
+                style={{
+                    color: "#000",
+                }}
                 target="_blank"
-                href={`mailto:denovobeauty.info@gmail.com`}
-            />
-            <div>720-555-9597</div>
+                href={`tel:720-687-9597`}
+            >
+                <PhoneIcon className="phoneIcon" />
+            </Button>
+            <Button
+                style={{
+                    color: "#000",
+                }}
+                target="_blank"
+                href={`tel:720-687-9597`}
+            >
+                <p className="phoneText">720-687-9597</p>
+            </Button>
         </div>
     );
 }

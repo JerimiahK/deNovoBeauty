@@ -2,3 +2,10 @@
     height: 20vw;
     width: auto;
 }
+
+@media screen and (max-width: 850px) {
+    .logoConnect {
+        height: auto;
+        width: 50vw;
+    }
+}
