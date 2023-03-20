@@ -1,3 +1,7 @@
+.map {
+    margin: 10% 0 10% 0;
+}
+
 @media screen and (max-width: 1200px) {
     .map {
         width: 400px;
