@@ -1,5 +1,6 @@
 .map {
     margin: 10% 0 10% 0;
+    box-shadow: 12px 10px 10px 0px #403b42;
 }
 
 @media screen and (max-width: 1200px) {

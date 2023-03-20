@@ -3,7 +3,7 @@ import "./aboutText.css";
 export default function AboutText() {
     return (
         <div>
-            <h1 className="aboutHeaderText">Meet Victoria Sanchez</h1>
+            {/* <h1 className="aboutHeaderText">Meet Victoria</h1> */}
             <div className="aboutTextContainer">
                 <p>
                     Victoria Sanchez is originally from San Diego, CA but has

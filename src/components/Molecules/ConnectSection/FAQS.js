@@ -8,7 +8,7 @@ import OtherQuestText from "../../Atoms/Text/ConnectPage/OtherQuestText";
 export default function FAQS() {
     return (
         <div className="faqsContainer">
-            <h1 className="faqHeader">FAQ's</h1>
+            <h1>FAQ's</h1>
             <DepositText />
             <CancellationText />
             <SanitationText />

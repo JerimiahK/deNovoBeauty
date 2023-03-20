@@ -7,4 +7,5 @@
     height: 300px;
     z-index: 998;
     background: #202020;
+    box-shadow: 0 0 12px 12px #bbbbbb;
 }

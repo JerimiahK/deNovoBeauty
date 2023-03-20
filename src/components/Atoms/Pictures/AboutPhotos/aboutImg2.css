@@ -1,6 +1,7 @@
 .aboutImg2 {
     height: 467px;
     margin: 2.5% 0 2.5% 0;
+    box-shadow: 12px 10px 10px 0px #a8a7a7;
 }
 
 @media screen and (max-width: 600px) {
