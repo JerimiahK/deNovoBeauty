@@ -1,0 +1,13 @@
+.pageContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 3%;
+}
+
+@media screen and (max-width: 650px) {
+    .pageContainer {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

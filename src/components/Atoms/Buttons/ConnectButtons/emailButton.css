@@ -1,0 +1,24 @@
+.emailContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.emailIcon {
+    transform: scale(2);
+}
+
+.emailText {
+    font-size: 15px;
+    margin: 0;
+}
+
+@media screen and (max-width: 450px) {
+    .emailText {
+        font-size: 120%;
+    }
+    .emailContainer {
+        margin: 10% 0 10% 0;
+    }
+}

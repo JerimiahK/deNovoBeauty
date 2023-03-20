@@ -1,5 +1,5 @@
+import ConnectContainer from "../components/Organisms/ConnectPage/Connect";
+
 export default function Connect() {
-  return (
-    <div>Connect</div>
-  )
+    return <ConnectContainer />;
 }
