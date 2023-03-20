@@ -5,10 +5,16 @@
     width: 50%;
     margin: 2%;
     border: 1px solid black;
+    box-shadow: 0 0 5px 8px rgb(168, 167, 167);
+}
+
+.faqHeader {
+    font-size: 300%;
 }
 
 @media screen and (max-width: 650px) {
     .faqsContainer {
-        width: 90%;
+        width: 100vw;
+        border: none;
     }
 }
