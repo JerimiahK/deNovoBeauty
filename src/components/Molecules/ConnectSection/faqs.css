@@ -1,7 +1,13 @@
 .faqsContainer {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 45%;
     margin: 2%;
     border: 1px solid black;
+}
+
+@media screen and (max-width: 650px) {
+    .faqsContainer {
+        width: 90%;
+    }
 }
