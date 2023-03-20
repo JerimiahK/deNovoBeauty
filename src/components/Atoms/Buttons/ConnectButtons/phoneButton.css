@@ -1,13 +1,25 @@
 .phoneContainer {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    /* width: 100vw; */
 }
 
 .phoneIcon {
-    transform: scale(3);
+    transform: scale(2);
 }
 
 .phoneText {
-    font-size: 25px;
+    font-size: 20px;
     margin: 0;
+}
+
+@media screen and (max-width: 450px) {
+    .phoneText {
+        font-size: 160%;
+    }
+    .phoneContainer {
+        margin-bottom: 20%;
+        width: 100vw;
+    }
 }
