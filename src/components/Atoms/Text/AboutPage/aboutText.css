@@ -1,5 +1,7 @@
 .aboutHeaderText {
     text-align: center;
+    text-shadow: 3px 4px 6px #a8a7a7;
+    font-size: 300%;
 }
 
 .aboutTextContainer {

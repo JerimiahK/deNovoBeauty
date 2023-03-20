@@ -1,6 +1,7 @@
 .headshot {
     height: 500px;
     width: auto;
+    box-shadow: 10px 10px 10px 0px #a8a7a7;
 }
 
 @media screen and (max-width: 600px) {

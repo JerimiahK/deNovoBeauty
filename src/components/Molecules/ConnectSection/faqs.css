@@ -2,10 +2,11 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 50%;
-    margin: 10% 0 10% 0;
+    margin: 0 0 10% 0;
     border: 1px solid black;
-    box-shadow: 0 0 5px 8px rgb(168, 167, 167);
+    border-radius: 3%;
+    overflow: hidden;
+    box-shadow: 0 0 12px 6px #bbbbbb;
 }
 
 .faqHeader {
@@ -16,5 +17,7 @@
     .faqsContainer {
         width: 100vw;
         border: none;
+        border-radius: 0;
+        margin-top: 10%;
     }
 }
