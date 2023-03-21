@@ -1,4 +1,4 @@
-import "./HeaderButton.css";
+import "./headerButton.css";
 import {Button} from "@mui/material";
 import {Link} from "react-router-dom";
 
@@ -15,7 +15,8 @@ export default function HomeBookButton() {
 // Material UI Button Style
 const style = {
     button: {
-        background: "#e2cdfa",
+        // background: "#e2cdfa",
+        background: "#fff",
         border: "2px solid black",
         color: "#0d0d0d",
         margin: "2px",
@@ -23,7 +24,7 @@ const style = {
         fontFamily: "'Roboto', serif",
         height: 80,
         width: 190,
-        borderRadius: 10,
+        borderRadius: "3px",
         textAlign: "center",
     },
 };

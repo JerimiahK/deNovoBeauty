@@ -12,7 +12,7 @@ export default function FormComponent() {
                     className="mb-3 formComponent"
                     controlId="formGroupEmail"
                 >
-                    <Form.Label>Name</Form.Label>
+                    <Form.Label className="contactTextFields">Name</Form.Label>
                     <Form.Control
                         type="name"
                         placeholder="Enter First & Last Name"
@@ -22,21 +22,27 @@ export default function FormComponent() {
                     className="mb-3 formComponent"
                     controlId="formGroupPassword"
                 >
-                    <Form.Label>Phone Number</Form.Label>
+                    <Form.Label className="contactTextFields">
+                        Phone Number
+                    </Form.Label>
                     <Form.Control type="phone" placeholder="xxx-xxx-xxxx" />
                 </Form.Group>
                 <Form.Group
                     className="mb-3 formComponent"
                     controlId="formGroupPassword"
                 >
-                    <Form.Label>Email Address</Form.Label>
+                    <Form.Label className="contactTextFields">
+                        Email Address
+                    </Form.Label>
                     <Form.Control type="email" placeholder="Enter Email" />
                 </Form.Group>
                 <Form.Group
                     className="mb-3"
                     controlId="exampleForm.ControlTextarea1"
                 >
-                    <Form.Label>Leave A Message</Form.Label>
+                    <Form.Label className="contactTextFields">
+                        Leave A Message
+                    </Form.Label>
                     <Form.Control as="textarea" rows={3} />
                 </Form.Group>
                 <ContactButton />
