@@ -1,4 +1,16 @@
 .servicesSectionContainer {
+    margin: 10% 0 10% 0;
+}
+
+.servicesCardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     text-align: center;
     margin: 5%;
+}
+
+.servicesHeaderText {
+    text-align: center;
 }

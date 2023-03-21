@@ -1,14 +1,14 @@
 import "./bridalMakeup.css";
 import Carousel from "react-bootstrap/Carousel";
-import Pic1 from "../../../Assets/Pictures/BridalMakeup/BridalMakeup.png";
-import Pic2 from "../../../Assets/Pictures/BridalMakeup/BridalMakeup3.avif";
-import Pic3 from "../../../Assets/Pictures/BridalMakeup/BridalMakeup4.avif";
+import Pic3 from "../../../Assets/Pictures/BridalMakeup/BridalMakeup.png";
+import Pic1 from "../../../Assets/Pictures/BridalMakeup/BridalMakeup3.avif";
+import Pic2 from "../../../Assets/Pictures/BridalMakeup/BridalMakeup4.avif";
 
 export default function BridalMakeupCard() {
     return (
         <div className="bridalMakeupContainer">
-            <h3>Bridal Makeup</h3>
             <div className="bridalCarouselContainer">
+                <h3>Bridal Makeup</h3>
                 <Carousel className="servicesCarousel">
                     {/* Item 1 */}
                     <Carousel.Item>
@@ -39,14 +39,14 @@ export default function BridalMakeupCard() {
             <div>
                 <h3>Bridal Makeup Information</h3>
                 <h6>
-                    <u>
+                    <i>
                         <strong>$50 Deposit To Hold Wedding Day</strong>
-                    </u>
+                    </i>
                 </h6>
                 <h6>
-                    <u>
+                    <i>
                         <strong>$50 Travel Fee Depending On Location</strong>
-                    </u>
+                    </i>
                 </h6>
                 {/* Bride Options */}
                 <div className="optionsContainer">
@@ -114,7 +114,9 @@ export default function BridalMakeupCard() {
                         </li>
                         <li>Customized Facial</li>
                     </ul>
-                    <p>Total For Bridal Package: <strong>$850</strong></p>
+                    <p>
+                        Total For Bridal Package: <strong>$850</strong>
+                    </p>
                 </div>
             </div>
         </div>

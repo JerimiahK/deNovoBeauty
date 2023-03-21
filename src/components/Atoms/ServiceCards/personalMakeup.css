@@ -1,0 +1,60 @@
+.personalMakeupContainer {
+    margin: 2.5% 0 2.5% 0;
+    padding-top: 2.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100%;
+    background-color: #9c85c0;
+    box-shadow: 0 0 12px 12px #bbbbbb;
+    border-radius: 10px;
+    color: #fff;
+    width: 90vw;
+}
+
+.servicesCarousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    width: 500px;
+    height: 500px;
+    margin: 5% 0 10% 0;
+}
+
+.personalImg {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.personalListContainer {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.optionsContainer {
+    width: 100%;
+    padding: 2%;
+}
+
+.optionsContainer:nth-child(even) {
+    background-color: #23bcf3c3;
+}
+
+@media screen and (max-width: 775px) {
+    .personalMakeupContainer {
+        flex-direction: column;
+        width: 100%;
+        margin: 5% 0 5% 0;
+    }
+
+    .servicesCarousel {
+        height: 375px;
+        width: 100%;
+    }
+}
