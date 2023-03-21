@@ -1,4 +1,4 @@
-import ConnectContainer from "../components/Organisms/ConnectPage/Connect";
+import ConnectContainer from "../components/Organisms/ConnectPage/ConnectContainer";
 
 export default function Connect() {
     return <ConnectContainer />;

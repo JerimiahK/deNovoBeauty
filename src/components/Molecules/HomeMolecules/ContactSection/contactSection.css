@@ -1,0 +1,9 @@
+.contactSectionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    padding: 10% 0 10% 0;
+    text-align: center;
+}

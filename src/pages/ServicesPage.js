@@ -1,7 +1,7 @@
-import ServicesPage from "../components/Organisms/ServicesPage/ServicesPage"
+import ServicesContainer from "../components/Organisms/ServicesPage/ServicesContainer"
 
 export default function Services() {
   return (
-    <ServicesPage />
+    <ServicesContainer />
   )
 }
