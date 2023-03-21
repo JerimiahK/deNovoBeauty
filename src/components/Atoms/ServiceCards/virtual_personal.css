@@ -30,6 +30,7 @@
 }
 
 .virtualOptionsContainer {
+    padding: 2.5%;
     width: 40%;
 }
 
@@ -63,6 +64,7 @@
     }
 
     .virtualOptionsContainer {
+        padding: 0;
         width: 100%;
     }
 }

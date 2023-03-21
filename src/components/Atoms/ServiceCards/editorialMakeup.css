@@ -39,11 +39,8 @@
 }
 
 .editorialOptionsContainer {
+    padding: 2.5%;
     width: 40%;
-}
-
-.editorialOptionsContainer {
-    width: 35%;
 }
 
 .optionsContainer {
@@ -67,6 +64,7 @@
         width: 100%;
     }
     .editorialOptionsContainer {
+        padding: 0;
         width: 100%;
     }
 }

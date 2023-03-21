@@ -39,6 +39,7 @@
 }
 
 .personalOptionsContainer {
+    padding: 2.5%;
     width: 40%;
 }
 
@@ -64,6 +65,7 @@
         width: 100%;
     }
     .personalOptionsContainer {
+        padding: 0;
         width: 100%;
     }
 }

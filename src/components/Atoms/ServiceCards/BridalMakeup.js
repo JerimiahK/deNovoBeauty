@@ -8,7 +8,9 @@ export default function BridalMakeupCard() {
     return (
         <div className="bridalMakeupContainer">
             <div className="bridalCarouselContainer">
-                <h3>Bridal Makeup</h3>
+                <h1>
+                    <strong>Bridal Makeup</strong>
+                </h1>
                 <Carousel className="servicesCarousel">
                     {/* Item 1 */}
                     <Carousel.Item>
@@ -37,7 +39,9 @@ export default function BridalMakeupCard() {
                 </Carousel>
             </div>
             <div className="bridalOptionsContainer">
-                <h3>Bridal Makeup Information</h3>
+                <h2>
+                    <strong>Bridal Makeup Information</strong>
+                </h2>
                 <h6>
                     <i>
                         <strong>$50 Deposit To Hold Wedding Day</strong>
@@ -50,7 +54,9 @@ export default function BridalMakeupCard() {
                 </h6>
                 {/* Bride Options */}
                 <div className="optionsContainer">
-                    <h5>Bride Options</h5>
+                    <h4>
+                        <strong>Bride Options</strong>
+                    </h4>
                     <ul className="bridalListContainer">
                         <li>
                             <strong>$180 -</strong> Bride <strong>ONLY</strong>,
@@ -66,7 +72,9 @@ export default function BridalMakeupCard() {
                 </div>
                 {/* Mother Of Bride Options */}
                 <div className="optionsContainer">
-                    <h5>Mother Of Bride Options</h5>
+                    <h4>
+                        <strong>Mother of Bride Options</strong>
+                    </h4>
                     <ul className="bridalListContainer">
                         <li>
                             <strong>$85 -</strong> Makeup Application - 1.5hr{" "}
@@ -79,7 +87,9 @@ export default function BridalMakeupCard() {
                 </div>
                 {/* Bridesmaid Options */}
                 <div className="optionsContainer">
-                    <h5>Bridesmaid Options</h5>
+                    <h4>
+                        <strong>Bridesmaid Options</strong>
+                    </h4>
                     <p>
                         <i>*up to 3 bridesmaids*</i>
                     </p>
@@ -98,7 +108,9 @@ export default function BridalMakeupCard() {
                 </div>
                 {/* Bridal Package */}
                 <div className="optionsContainer">
-                    <h5>Bridal Package</h5>
+                    <h4>
+                        <strong>Bridal Package</strong>
+                    </h4>
                     <p>
                         Includes Bride, Bride Trial, MOB, 4 Bridesmaids,
                         Customized Facial

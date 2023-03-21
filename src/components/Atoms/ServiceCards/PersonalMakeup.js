@@ -7,7 +7,9 @@ export default function PersonalMakeupCard() {
     return (
         <div className="personalMakeupContainer">
             <div>
-                <h3>Personal Makeup</h3>
+                <h1>
+                    <strong>Personal Makeup</strong>
+                </h1>
                 <Carousel className="servicesCarousel">
                     {/* Item 1 */}
                     <Carousel.Item>
@@ -28,23 +30,26 @@ export default function PersonalMakeupCard() {
                 </Carousel>
             </div>
             <div className="personalOptionsContainer">
-                <h3>Personal Makeup Information</h3>
+                <h2>
+                    <strong>Personal Makeup Information</strong>
+                </h2>
                 {/* Basic Application */}
                 <div className="optionsContainer">
-                    <h5>Basic Application</h5>
+                    <h4>
+                        <strong>Basic Application</strong>
+                    </h4>
                     <ul className="personalListContainer">
                         <li>
                             <strong>$85 -</strong> Basic Makeup application -
                             1hr <i>*lashes not included*</i>
                         </li>
                     </ul>
-                    <p>
-                        Total For Bride Only: <strong>$265</strong>
-                    </p>
                 </div>
                 {/* GLAM Application */}
                 <div className="optionsContainer">
-                    <h5>GLAM Applications</h5>
+                    <h4>
+                        <strong>GLAM Application</strong>
+                    </h4>
                     <ul className="personalListContainer">
                         <li>
                             <strong>$125 -</strong> GLAM application - 1.5hr{" "}
