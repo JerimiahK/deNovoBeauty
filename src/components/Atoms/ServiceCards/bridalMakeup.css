@@ -7,7 +7,8 @@
     background-color: #9c85c0;
     box-shadow: 0 0 12px 12px #bbbbbb;
     border-radius: 10px;
-    color: #fff;
+    color: #000;
+    font-size: 120%;
     width: 90vw;
 }
 
@@ -51,11 +52,14 @@
 @media screen and (max-width: 775px) {
     .bridalMakeupContainer {
         flex-direction: column;
-        width: 100%;
+        width: 100vw;
         margin: 5% 0 5% 0;
     }
     .servicesCarousel {
         width: 100%;
         height: 375px;
     }
+    .bridalOptionsContainer {
+        width: 100%;
+    }  
 }
