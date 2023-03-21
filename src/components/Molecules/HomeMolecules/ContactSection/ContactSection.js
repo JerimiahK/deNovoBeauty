@@ -1,4 +1,4 @@
-import Form from "../../../Molecules/Form/Form";
+import Form from "../../Form/Form";
 import "./contactSection.css";
 
 export default function ContactSection() {
