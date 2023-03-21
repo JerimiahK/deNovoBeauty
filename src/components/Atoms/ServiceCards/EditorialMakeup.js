@@ -32,11 +32,9 @@ export default function EditorialMakeupCard() {
                 {/* Basic Application */}
                 <div className="optionsContainer">
                     <h5>Editorial Options</h5>
-                    <ul className="editorialListContainer">
-                        <li>
-                            All Editorial Makeup is meant to be personalized, so prices and options will vary depending on project and budget size. I am willing to work with you on your budget so please don't hesitate to reach out and contact me to discuss a project!
-                        </li>
-                    </ul>
+                    <p className="editorialListContainer">
+                        All Editorial Makeup is meant to be personalized, so prices and options will vary depending on project and budget size. I am willing to work with you on your budget so please don't hesitate to reach out and contact me to discuss a project!
+                    </p>
                 </div>
             </div>
         </div>
