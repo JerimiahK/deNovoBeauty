@@ -5,7 +5,7 @@ import PageContainer from "../../Molecules/ConnectMolecules/PageContainer"
 
 export default function ConnectContainer() {
   return (
-    <div className="connectPageContainer">
+    <div className="connectContainer">
       <NavBar />
       <PageContainer />
       <Footer />

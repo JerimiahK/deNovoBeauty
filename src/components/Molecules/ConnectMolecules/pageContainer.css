@@ -1,8 +1,18 @@
+.connectPageContainer {
+    margin: 2.5%;
+    font-size: 85%;
+}
+
 .pageContainer {
+    margin: 5% 0 0 0;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin: 3%;
+}
+
+.connectHeaderText {
+    text-align: center;
+    font-size: 200%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -10,5 +20,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .connectPageContainer {
+        margin: 10% 0 10% 0;
     }
 }
