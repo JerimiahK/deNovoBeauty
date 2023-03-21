@@ -47,15 +47,15 @@
     padding: 2%;
 }
 
-.optionsContainer:nth-child(odd) {
+/* .optionsContainer:nth-child(odd) {
     box-shadow: 7px 0px 10px 0px #403b42;
     border: 1px white solid;
-}
+} */
 
-.optionsContainer:nth-child(even) {
+/* .optionsContainer:nth-child(even) {
     box-shadow: 7px 0px 10px 0px #403b42;
     background-color: #23bcf3c3;
-}
+} */
 
 @media screen and (max-width: 775px) {
     .bridalMakeupContainer {

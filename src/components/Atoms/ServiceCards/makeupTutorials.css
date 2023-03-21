@@ -48,9 +48,9 @@
     padding: 2%;
 }
 
-.optionsContainer:nth-child(even) {
+/* .optionsContainer:nth-child(even) {
     background-color: #23bcf3c3;
-}
+} */
 
 @media screen and (max-width: 775px) {
     .tutorialMakeupContainer {

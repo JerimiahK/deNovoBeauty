@@ -41,9 +41,13 @@ export default function FormComponent() {
                     controlId="exampleForm.ControlTextarea1"
                 >
                     <Form.Label className="contactTextFields">
-                        Leave A Message
+                        Comments & Questions
                     </Form.Label>
-                    <Form.Control as="textarea" rows={3} />
+                    <Form.Control
+                        placeholder="Write Message Here"
+                        as="textarea"
+                        rows={3}
+                    />
                 </Form.Group>
                 <ContactButton />
             </Form>
