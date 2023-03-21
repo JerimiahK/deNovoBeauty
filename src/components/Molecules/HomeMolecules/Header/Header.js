@@ -1,5 +1,5 @@
 import "./Header.css"
-import Logo from "../../../Molecules/BookNow/bookNow";
+import Logo from "../BookNow/bookNow";
 
 export default function HomeHeader() {
   return (

@@ -1,6 +1,6 @@
 import "./socialLinks.css";
-import FacebookIcon from "../../Atoms/Icons/Facebook";
-import InstagramIcon from "../../Atoms/Icons/Instagram";
+import FacebookIcon from "../../../Atoms/Icons/Facebook";
+import InstagramIcon from "../../../Atoms/Icons/Instagram";
 
 export default function Socials() {
     return (

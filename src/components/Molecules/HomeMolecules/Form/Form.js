@@ -1,6 +1,6 @@
 import Form from "react-bootstrap/Form";
-import ContactText from "../../Atoms/Text/HomePage/ContactText/ContactText";
-import ContactButton from "../../Atoms/Buttons/ContactButton/ContactButton";
+import ContactText from "../../../Atoms/Text/HomePage/ContactText/ContactText";
+import ContactButton from "../../../Atoms/Buttons/ContactButton/ContactButton";
 import "./form.css";
 
 export default function FormComponent() {
