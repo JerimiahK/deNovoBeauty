@@ -1,4 +1,20 @@
 .servicesSectionContainer {
+    margin: 10% 0 10% 0;
+}
+
+.servicesCardContainer {
+    display: flex;
+    justify-content: space-evenly;
     text-align: center;
     margin: 5%;
+}
+
+.servicesHeaderText {
+    text-align: center;
+}
+
+@media screen and (max-width: 775px) {
+    .servicesCardContainer {
+        flex-direction: column;
+    }
 }
