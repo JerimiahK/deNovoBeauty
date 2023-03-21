@@ -33,4 +33,10 @@
         width: 100%;
         margin: 5% 0 5% 0;
     }
+    .partyImg {
+        width: 100%;
+    }
+    .partyOptionsContainer {
+        width: 100%;
+        }
 }

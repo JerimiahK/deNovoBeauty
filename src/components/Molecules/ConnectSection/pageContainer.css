@@ -5,7 +5,7 @@
     margin: 3%;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1200px) {
     .pageContainer {
         flex-direction: column;
         justify-content: center;

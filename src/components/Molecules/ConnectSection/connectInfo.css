@@ -17,7 +17,7 @@
     font-size: 300%;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1200px) {
     .connectInfoContainer {
         width: 100vw;
         border-radius: 0;
