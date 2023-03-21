@@ -5,7 +5,7 @@ import ServicesContainer from "../../Molecules/ServicesSection/ServicesContainer
 
 export default function ServicesPage() {
     return (
-        <div>
+        <div className="servicePageContainer">
             <NavBar />
             <ServicesContainer />
             <Footer />
