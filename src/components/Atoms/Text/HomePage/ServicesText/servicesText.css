@@ -3,16 +3,20 @@
 }
 
 .headerLarge {
+    text-shadow: 3px 4px 6px #403b42;
+    color: #000;
     font-size: 150%;
     font-weight: bolder;
 }
 
 .serviceName {
+    text-shadow: 3px 4px 6px #403b42;
     font-weight: bolder;
     font-size: 120%;
 }
 
 .serviceNameAlt {
+    text-shadow: 3px 4px 6px #403b42;
     margin-top: 50px;
     font-weight: bolder;
     font-size: 120%;

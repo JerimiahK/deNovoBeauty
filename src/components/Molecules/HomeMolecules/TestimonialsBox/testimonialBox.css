@@ -1,6 +1,13 @@
 .testimonialsBox {
+    box-shadow: 10px 10px 10px 0px #a8a7a7;
     margin-top: 75px;
-    border: 2px solid black;
     height: 50%;
     width: 90%;
+}
+
+@media screen and (max-width: 775px) {
+    .testimonialsBox {
+        width: 100%;
+        box-shadow: 0 0 12px 12px #bbbbbb;
+        }
 }

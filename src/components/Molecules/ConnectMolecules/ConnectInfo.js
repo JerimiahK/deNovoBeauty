@@ -7,7 +7,7 @@ import Map from "../../Atoms/Map/Map";
 export default function ConnectInfo() {
     return (
         <div className="connectInfoContainer">
-            <h1 className="connectHeaderText">Connect With Me!</h1>
+            <h1 className="connectBoxHeaderText">Connect With Me!</h1>
             <LogoImage />
             <EmailButton />
             <PhoneButton />

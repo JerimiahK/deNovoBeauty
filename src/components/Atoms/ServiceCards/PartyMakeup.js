@@ -6,7 +6,7 @@ export default function PartyMakeupCard() {
     return (
         <div className="partyMakeupContainer">
             <div>
-                <h3>Party Makeup</h3>
+                <h3>Party & Group Makeup</h3>
                 <Carousel className="servicesCarousel">
                     {/* Item 1 */}
                     <Carousel.Item>
@@ -19,12 +19,12 @@ export default function PartyMakeupCard() {
                 </Carousel>
             </div>
             <div className="partyOptionsContainer">
-                <h3>Party Makeup Information</h3>
+                <h3>Party & Group Makeup Information</h3>
                 <div className="optionsContainer">
                     <h5>Party Makeup</h5>
                     <div className="partyListContainer">
                         <p>
-                            Party Makeup prices will vary by the number of
+                            Party & Group Makeup prices will vary by the number of
                             applications and the amount of time that you want to
                             book.
                         </p>

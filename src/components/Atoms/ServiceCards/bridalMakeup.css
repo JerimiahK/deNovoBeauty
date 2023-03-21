@@ -13,6 +13,7 @@
 }
 
 .servicesCarousel {
+    box-shadow: 12px 10px 10px 0px #403b42;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,6 +47,7 @@
 }
 
 .optionsContainer:nth-child(even) {
+    box-shadow: 12px 10px 10px 0px #403b42;
     background-color: #23bcf3c3;
 }
 
