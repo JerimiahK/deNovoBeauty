@@ -15,7 +15,6 @@ export default function HomeBookButton() {
 // Material UI Button Style
 const style = {
     button: {
-        // background: "#e2cdfa",
         background: "#fff",
         border: "2px solid black",
         color: "#0d0d0d",
