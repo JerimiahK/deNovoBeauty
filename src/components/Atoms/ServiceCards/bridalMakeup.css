@@ -63,5 +63,8 @@
     }
     .bridalOptionsContainer {
         width: 100%;
-    }  
+    }
+    .optionsContainer:nth-child(even) {
+        box-shadow: none;
+    }
 }
