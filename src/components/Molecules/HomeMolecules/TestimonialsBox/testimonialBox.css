@@ -8,6 +8,6 @@
 @media screen and (max-width: 775px) {
     .testimonialsBox {
         width: 100%;
-        box-shadow: 0 0 12px 12px #bbbbbb;
+        box-shadow: 0 5px 10px 0px #bbbbbb;
         }
 }
