@@ -27,7 +27,7 @@ export default function PersonalMakeupCard() {
                     </Carousel.Item>
                 </Carousel>
             </div>
-            <div>
+            <div className="personalOptionsContainer">
                 <h3>Personal Makeup Information</h3>
                 {/* Basic Application */}
                 <div className="optionsContainer">

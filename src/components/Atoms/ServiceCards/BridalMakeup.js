@@ -36,7 +36,7 @@ export default function BridalMakeupCard() {
                     </Carousel.Item>
                 </Carousel>
             </div>
-            <div>
+            <div className="bridalOptionsContainer">
                 <h3>Bridal Makeup Information</h3>
                 <h6>
                     <i>

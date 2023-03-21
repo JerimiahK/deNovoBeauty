@@ -1,10 +1,9 @@
 .virtualMakeupContainer {
     margin: 2.5% 0 2.5% 0;
-    padding: 3%;
+    padding-top: 2.5%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 100%;
     background-color: #9c85c0;
     box-shadow: 0 0 12px 12px #bbbbbb;
     border-radius: 10px;
@@ -12,19 +11,41 @@
     width: 90vw;
 }
 
-.virtualImg {
+.servicesCarousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
     width: 500px;
+    height: 500px;
+    margin: 5% 0 10% 0;
+}
+
+.virtualImg {
+    width: 100%;
     height: 500px;
     object-fit: cover;
 }
 
 .virtualOptionsContainer {
-    width: 35%;
+    width: 40%;
+}
+
+.virtualListContainer {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .optionsContainer {
-    width: 100%;
     padding: 2%;
+}
+
+.optionsContainer:nth-child(even) {
+    background-color: #23bcf3c3;
 }
 
 @media screen and (max-width: 775px) {
@@ -34,8 +55,9 @@
         margin: 5% 0 5% 0;
     }
 
-    .virtualImg {
+    .servicesCarousel {
         width: 100%;
+        height: 375px;
     }
 
     .virtualOptionsContainer {

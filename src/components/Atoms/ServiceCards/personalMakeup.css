@@ -37,6 +37,10 @@
     justify-content: center;
 }
 
+.personalOptionsContainer {
+    width: 40%;
+}
+
 .optionsContainer {
     width: 100%;
     padding: 2%;

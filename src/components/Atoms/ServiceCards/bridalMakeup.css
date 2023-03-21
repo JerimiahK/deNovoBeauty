@@ -36,6 +36,10 @@
     justify-content: center;
 }
 
+.bridalOptionsContainer {
+    width: 40%;
+}
+
 .optionsContainer {
     padding: 2%;
 }
