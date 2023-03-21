@@ -3,7 +3,7 @@ import "./servicesText.css";
 export default function ServicesText() {
     return (
         <div className="headerContainer">
-            <h1>De Novo Beauty</h1>
+            <h1 style={{ color: "#000" }}>De Novo Beauty</h1>
             <h3 className="headerLarge">Popular Services</h3>
             {/* <h5>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

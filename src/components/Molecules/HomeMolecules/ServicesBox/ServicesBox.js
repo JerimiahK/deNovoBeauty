@@ -3,7 +3,7 @@ import PersonalMakeup from "../../../Atoms/Text/HomePage/ServicesText/PersonalMa
 import Editorial from "../../../Atoms/Text/HomePage/ServicesText/Editorial";
 import Bridal from "../../../Atoms/Text/HomePage/ServicesText/Bridal";
 import Tutorials from "../../../Atoms/Text/HomePage/ServicesText/Tutorials";
-import PersonalServices from "../../../Atoms/Text/HomePage/ServicesText/PersonalServices";
+import PartyMakeup from "../../../Atoms/Text/HomePage/ServicesText/PartyMakeup";
 import VirtualService from "../../../Atoms/Text/HomePage/ServicesText/VirtualService";
 
 export default function ServicesBox() {
@@ -13,7 +13,7 @@ export default function ServicesBox() {
             <PersonalMakeup />
             <Tutorials />
             <Editorial />
-            <PersonalServices />
+            <PartyMakeup />
             <VirtualService />
         </div>
     );
