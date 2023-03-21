@@ -6,6 +6,12 @@
     width: 50%;
 }
 
+.servicesNameHeader {
+    text-shadow: 3px 4px 6px #1e1d1f;
+    font-size: 150%;
+    color: #000;
+}
+
 .headerLarge {
     color: #000;
     font-weight: bolder;
