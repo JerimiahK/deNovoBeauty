@@ -4,7 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 export default function TestimonialsBox() {
   return (
     <div className="testimonialsBox">
-      <Carousel>
+      <Carousel className="testimonialsCarousel">
         {/* Item 1 */}
         <Carousel.Item>
           <img

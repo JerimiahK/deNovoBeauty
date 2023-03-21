@@ -1,8 +1,9 @@
 .aboutSection {
+    margin: 2.5%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 10% 10% 0% 10%;
+    padding: 0 10% 0% 10%;
 }
 
 @media screen and (max-width: 1200px) {

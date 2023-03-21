@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 export default function HomeBookButton() {
     return (
-        <div className="buttonContainer">
+        <div className="headerButtonContainer">
             <Link style={{textDecoration: "none"}} to="/connect">
                 <Button style={style.button}>Book An Appointment</Button>
             </Link>

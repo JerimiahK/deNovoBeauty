@@ -1,5 +1,5 @@
 .servicesSectionContainer {
-    margin: 10% 0 10% 0;
+    margin: 2.5% 0 10% 0;
 }
 
 .servicesCardContainer {
@@ -14,5 +14,5 @@
 .servicesHeaderText {
     text-shadow: 3px 4px 6px #a8a7a7;
     text-align: center;
-    font-size: 250%;
+    font-size: 300%;
 }

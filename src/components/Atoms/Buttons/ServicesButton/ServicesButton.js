@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function ServicesButton() {
     return (
         <Link to="/services">
-            <div className="buttonContainer">
+            <div className="servicesButtonContainer">
                     <button className="button">View Services!</button>
             </div>
         </Link>
