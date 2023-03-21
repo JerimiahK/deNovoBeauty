@@ -4,10 +4,10 @@
 
 .button {
     background-color: transparent;
-    color: #fff;
+    color: #000;
     font-weight: bolder;
     padding: 15px;
-    border: #fff solid 1px;
+    border: #000 solid 1px;
     border-radius: 5px;
     text-align: center;
 
