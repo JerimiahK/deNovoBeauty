@@ -37,6 +37,10 @@
     justify-content: center;
 }
 
+.editorialOptionsContainer {
+    width: 35%;
+}
+
 .optionsContainer {
     width: 100%;
     padding: 2%;
@@ -48,11 +52,13 @@
 
 @media screen and (max-width: 775px) {
     .editorialMakeupContainer {
+        flex-direction: column;
         width: 100%;
         margin: 5% 0 5% 0;
     }
 
     .servicesCarousel {
         height: 375px;
+        width: 100%;
     }
 }
