@@ -57,6 +57,7 @@
 
 @media screen and (max-width: 775px) {
     .editorialMakeupContainer {
+        border-radius: 0;
         flex-direction: column;
         width: 100vw;
         margin: 5% 0 5% 0;
