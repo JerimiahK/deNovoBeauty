@@ -39,6 +39,7 @@
 }
 
 .tutorialOptionsContainer {
+    padding: 2.5%;
     width: 40%;
 }
 
@@ -64,6 +65,7 @@
         width: 100%;
     }
     .tutorialOptionsContainer {
+        padding: 0;
         width: 100%;
     }
 }

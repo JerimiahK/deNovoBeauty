@@ -6,7 +6,9 @@ export default function MakeupTutorialsCard() {
     return (
         <div className="tutorialMakeupContainer">
             <div>
-                <h3>Makeup Tutorial</h3>
+                <h1>
+                    <strong>Makeup Tutorials</strong>
+                </h1>
                 <Carousel className="servicesCarousel">
                     {/* Item 1 */}
                     <Carousel.Item>
@@ -19,9 +21,13 @@ export default function MakeupTutorialsCard() {
                 </Carousel>
             </div>
             <div className="tutorialOptionsContainer">
-                <h3>Tutorial Makeup Information</h3>
+                <h2>
+                    <strong>Makeup Tutorial Information</strong>
+                </h2>
                 <div className="optionsContainer">
-                    <h5>Basic Tutorial</h5>
+                    <h4>
+                        <strong>Basic Tutorial</strong>
+                    </h4>
                     <ul className="tutorialListContainer">
                         <li>
                             <strong>$125 -</strong> Tutorial, Full face of
@@ -31,7 +37,9 @@ export default function MakeupTutorialsCard() {
                     </ul>
                 </div>
                 <div className="optionsContainer">
-                    <h5>Advanced Application Assistance</h5>
+                    <h4>
+                        <strong>Advanced Application Assistance</strong>
+                    </h4>
                     <ul className="tutorialListContainer">
                         <li>
                             <strong>$200 -</strong> Deep dive into the latest

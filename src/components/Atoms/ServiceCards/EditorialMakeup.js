@@ -7,7 +7,9 @@ export default function EditorialMakeupCard() {
     return (
         <div className="editorialMakeupContainer">
             <div className="editorialCarouselContainer">
-                <h3>Editorial Makeup</h3>
+                <h1>
+                    <strong>Editorial Makeup</strong>
+                </h1>
                 <Carousel className="servicesCarousel">
                     {/* Item 1 */}
                     <Carousel.Item>
@@ -28,12 +30,20 @@ export default function EditorialMakeupCard() {
                 </Carousel>
             </div>
             <div className="editorialOptionsContainer">
-                <h3>Editorial Makeup Information</h3>
+                <h2>
+                    <strong>Editorial Makeup Information</strong>
+                </h2>
                 {/* Basic Application */}
                 <div className="optionsContainer">
-                    <h5>Editorial Options</h5>
+                    <h4>
+                        <strong>Editorial Options</strong>
+                    </h4>
                     <p className="editorialListContainer">
-                        All Editorial Makeup is meant to be personalized, so prices and options will vary depending on project and budget size. I am willing to work with you on your budget so please don't hesitate to reach out and contact me to discuss a project!
+                        All Editorial Makeup is meant to be personalized, so
+                        prices and options will vary depending on project and
+                        budget size. I am willing to work with you on your
+                        budget so please don't hesitate to reach out and contact
+                        me to discuss a project!
                     </p>
                 </div>
             </div>

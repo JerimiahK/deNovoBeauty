@@ -39,6 +39,7 @@
 }
 
 .bridalOptionsContainer {
+    padding: 2.5%;
     width: 40%;
 }
 
@@ -46,8 +47,13 @@
     padding: 2%;
 }
 
+.optionsContainer:nth-child(odd) {
+    box-shadow: 7px 0px 10px 0px #403b42;
+    border: 1px white solid;
+}
+
 .optionsContainer:nth-child(even) {
-    box-shadow: 12px 10px 10px 0px #403b42;
+    box-shadow: 7px 0px 10px 0px #403b42;
     background-color: #23bcf3c3;
 }
 
@@ -63,6 +69,7 @@
         height: 375px;
     }
     .bridalOptionsContainer {
+        padding: 0;
         width: 100%;
     }
     .optionsContainer:nth-child(even) {

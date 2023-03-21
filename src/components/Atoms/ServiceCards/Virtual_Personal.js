@@ -6,7 +6,9 @@ export default function Virtual_PersonalCard() {
     return (
         <div className="virtualMakeupContainer">
             <div>
-                <h3>Personal & Virtual Services</h3>
+                <h1>
+                    <strong>Personal & Virtual Services</strong>
+                </h1>
                 <Carousel className="servicesCarousel">
                     {/* Item 1 */}
                     <Carousel.Item>
@@ -19,9 +21,13 @@ export default function Virtual_PersonalCard() {
                 </Carousel>
             </div>
             <div className="virtualOptionsContainer">
-                <h3>Personal & Virtual Services Information</h3>
+                <h2>
+                    <strong>Personal & Virtual Information</strong>
+                </h2>
                 <div className="optionsContainer">
-                    <h5>Skincare Product Virtual Session</h5>
+                    <h4>
+                        <strong>Skincare Product Virtual Session</strong>
+                    </h4>
                     <ul className="virtualListContainer">
                         <li>
                             <strong>$30 -</strong> Virtual Skincare
@@ -31,7 +37,9 @@ export default function Virtual_PersonalCard() {
                     </ul>
                 </div>
                 <div className="optionsContainer">
-                    <h5>Makeup Product Virtual Session</h5>
+                    <h4>
+                        <strong>Makeup Product Virtual Session</strong>
+                    </h4>
                     <ul className="virtualListContainer">
                         <li>
                             <strong>$30 -</strong> Virtual Makeup Consultation.
@@ -41,7 +49,9 @@ export default function Virtual_PersonalCard() {
                     </ul>
                 </div>
                 <div className="optionsContainer">
-                    <h5>Makeup Tutorial Virtual Session</h5>
+                    <h4>
+                        <strong>Makeup Tutorial Virtual Session</strong>
+                    </h4>
                     <ul className="virtualListContainer">
                         <li>
                             <strong>$75 -</strong> Virtual Makeup Tutorial.
@@ -51,7 +61,9 @@ export default function Virtual_PersonalCard() {
                     </ul>
                 </div>
                 <div className="optionsContainer">
-                    <h5>Personal Shopper Session</h5>
+                    <h4>
+                        <strong>Personal Shopper Session</strong>
+                    </h4>
                     <ul className="virtualListContainer">
                         <li>
                             <strong>$75 -</strong> Don't know what to buy? Take
