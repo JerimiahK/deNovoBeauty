@@ -4,17 +4,13 @@
 
 .servicesCardContainer {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     text-align: center;
     margin: 5%;
 }
 
 .servicesHeaderText {
     text-align: center;
-}
-
-@media screen and (max-width: 775px) {
-    .servicesCardContainer {
-        flex-direction: column;
-    }
 }
