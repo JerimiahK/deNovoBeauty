@@ -6,7 +6,7 @@ import Pic2 from "../../../Assets/Pictures/PersonalMakeup/Personal-Makeup2.avif"
 export default function PersonalMakeupCard() {
     return (
         <div className="personalMakeupContainer">
-            <div className="personalCarouselContainer">
+            <div>
                 <h3>Personal Makeup</h3>
                 <Carousel className="servicesCarousel">
                     {/* Item 1 */}

@@ -2,6 +2,7 @@ import "./servicesContainer.css";
 import BridalMakeupCard from "../../Atoms/ServiceCards/BridalMakeup";
 import PersonalMakeupCard from "../../Atoms/ServiceCards/PersonalMakeup";
 import EditorialMakeupCard from "../../Atoms/ServiceCards/EditorialMakeup";
+import PartyMakeupCard from "../../Atoms/ServiceCards/PartyMakeup";
 
 export default function ServicesSection() {
     return (
@@ -11,6 +12,7 @@ export default function ServicesSection() {
                 <BridalMakeupCard />
                 <PersonalMakeupCard />
                 <EditorialMakeupCard />
+                <PartyMakeupCard />
             </div>
         </div>
     );
