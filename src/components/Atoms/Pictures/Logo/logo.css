@@ -1,11 +1,11 @@
 .logoImage {
-    height: auto;
-    width: 60vw;
+    height: 500px;
+    width: 40vw;
 }
 
 @media screen and (max-width: 850px) {
     .logoImage {
-        height: auto;
-        width: 100vw;
+        height: 200px;
+        width: 90vw;
     }
 }
