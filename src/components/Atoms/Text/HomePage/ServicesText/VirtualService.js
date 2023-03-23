@@ -5,10 +5,11 @@ export default function VirtualService() {
         <div className="serviceContainer">
             <h2 className="serviceNameAlt">Personal & Virtual Services</h2>
             <p className="serviceText">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Makeup stores give you a headache, and you're overwhelmed by the
+                number of product choices? Take a professional with you! I will
+                go through each step with you, virtual or in person, to find
+                what products work best for you. Each virtual or in-person
+                personal service consists of a consultation.
             </p>
         </div>
     );

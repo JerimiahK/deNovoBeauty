@@ -53,7 +53,7 @@ export default function PersonalMakeupCard() {
                     <ul className="personalListContainer">
                         <li>
                             <strong>$125 -</strong> GLAM application - 1.5hr{" "}
-                            <i>*lashes included</i>
+                            <i>*lashes included*</i>
                         </li>
                     </ul>
                 </div>

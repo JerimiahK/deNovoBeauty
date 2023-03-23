@@ -48,7 +48,9 @@ export default function BridalMakeupCard() {
                 </h6>
                 <h6>
                     <i>
-                        <strong>$50 Travel Fee Depending On Location</strong>
+                        <strong>
+                            Up To $50 Travel Fee Depending On Location
+                        </strong>
                     </i>
                 </h6>
                 {/* Bride Options */}
@@ -58,15 +60,15 @@ export default function BridalMakeupCard() {
                     </h4>
                     <ul className="bridalListContainer">
                         <li>
-                            <strong>$180 -</strong> Bride <strong>ONLY</strong>,
+                            <strong>$100 -</strong> Bride <strong>ONLY</strong>,
                             Lash and Makeup Application - 1.5hr
                         </li>
                         <li>
-                            <strong>$85 -</strong> Bridal Trial - 1.5hr
+                            <strong>$150 -</strong> Bride Trial - 2hr
                         </li>
                     </ul>
                     <p>
-                        Total For Bride Only: <strong>$265</strong>
+                        Total For Bride Only: <strong>$250</strong>
                     </p>
                 </div>
                 {/* Mother Of Bride Options */}
@@ -111,20 +113,18 @@ export default function BridalMakeupCard() {
                         <strong>Bridal Package</strong>
                     </h4>
                     <p>
-                        Includes Bride, Bride Trial, MOB, 4 Bridesmaids,
-                        Customized Facial
+                        Includes Bride, Bride Trial, Mother Of The Bride, 4
+                        Bridesmaids
                     </p>
                     <ul className="bridalListContainer">
-                        <li>Bride</li>
-                        <li>Bride Trial - 3hr</li>
-                        <li>
-                            Mother of Bride - 1hr <i>*includes lashes*</i>
-                        </li>
-                        <li>
-                            Bridesmaids - 3hrs <i>*includes lashes*</i>
-                        </li>
-                        <li>Customized Facial</li>
+                        <li>Bride Trial - 2hr</li>
+                        <li>Bride - 1.5hr</li>
+                        <li>Mother of Bride - 1hr</li>
+                        <li>Bridesmaids - 3hrs</li>
                     </ul>
+                    <p>
+                        <i>*includes lashes*</i>
+                    </p>
                     <p>
                         Total For Bridal Package: <strong>$850</strong>
                     </p>
