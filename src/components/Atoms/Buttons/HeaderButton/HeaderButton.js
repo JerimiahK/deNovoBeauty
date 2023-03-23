@@ -1,13 +1,17 @@
 import "./HeaderButton.css";
 import {Button} from "@mui/material";
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 
 export default function HomeBookButton() {
     return (
         <div className="headerButtonContainer">
-            <Link style={{textDecoration: "none"}} to="/connect">
-                <Button style={style.button}>Book An Appointment</Button>
-            </Link>
+                <Button
+                    href="https://www.vagaro.com/us02/denovobeauty"
+                    target="_blank"
+                    style={style.button}
+                >
+                    Book An Appointment
+                </Button>
         </div>
     );
 }
