@@ -1,11 +1,17 @@
+.header {
+    text-shadow: 2px 2px 6px #909090;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
 .whyText {
     display: flex;
     flex-direction: column;
-    padding: 0 5% 0 5%;
+    padding: 0 20% 0 20%;
 }
 
-.header {
-    text-shadow: 3px 4px 6px #403b42;
-    font-size: 150%;
-    font-weight: bolder;
+@media screen and (max-width: 775px) {
+    .whyText {
+        padding: 0 5% 0 5%;
+    }
 }
