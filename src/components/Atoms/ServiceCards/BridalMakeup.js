@@ -2,7 +2,6 @@ import "./bridalMakeup.css";
 import Carousel from "react-bootstrap/Carousel";
 import Pic3 from "../../../Assets/Pictures/BridalMakeup/BridalMakeup.png";
 import Pic1 from "../../../Assets/Pictures/BridalMakeup/BridalMakeup3.avif";
-import Pic2 from "../../../Assets/Pictures/BridalMakeup/BridalMakeup4.avif";
 
 export default function BridalMakeupCard() {
     return (
@@ -21,13 +20,13 @@ export default function BridalMakeupCard() {
                         />
                     </Carousel.Item>
                     {/* Item 2 */}
-                    <Carousel.Item>
+                    {/* <Carousel.Item>
                         <img
                             className="d-block w-100 bridalImg"
                             src={Pic2}
                             alt="Second slide"
                         />
-                    </Carousel.Item>
+                    </Carousel.Item> */}
                     {/* Item 3 */}
                     <Carousel.Item>
                         <img

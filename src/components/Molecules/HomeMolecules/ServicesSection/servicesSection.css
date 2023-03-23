@@ -1,7 +1,6 @@
 .servicesContainer {
-    background-color: #9c85c0;
+    background-color: #cab3ee;
     box-shadow: 0 0 12px 12px #bbbbbb;
-    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
