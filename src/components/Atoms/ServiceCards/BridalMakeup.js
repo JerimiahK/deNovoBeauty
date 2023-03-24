@@ -60,31 +60,36 @@ export default function BridalMakeupCard() {
                     </h4>
                     <ul className="bridalListContainer">
                         <li>
-                            <strong>Starting at $100 -</strong> Bride <strong>ONLY</strong>,
-                            Lash and Makeup Application - 1.5hr
+                            <strong>Starting at $100 -</strong> Bride{" "}
+                            <strong>ONLY</strong>, Lash and Makeup Application -
+                            1.5hr
                         </li>
+                        <p className="mustHave">
+                            <i>*MUST HAVE COMPLETED BRIDE TRIAL*</i>
+                        </p>
                         <li>
-                            <strong>Starting at $150 -</strong> Bride Trial - 2hr
+                            <strong>Starting at $150 -</strong> Bride Trial -
+                            2hr
                         </li>
                     </ul>
-                    <p>
-                        Total For Bride Only: <strong>$250</strong>
-                    </p>
                 </div>
-                {/* Mother Of Bride Options */}
+                {/* Bride and Mother Of Bride Options */}
                 <div className="optionsContainer">
                     <h4>
-                        <strong>Mother of Bride Options</strong>
+                        <strong>Bride and Mother of Bride Options</strong>
                     </h4>
                     <ul className="bridalListContainer">
                         <li>
-                            <strong>$85 -</strong> Makeup Application - 1.5hr{" "}
-                            <i>*does not include lashes*</i>
+                            <strong>Starting at $185 -</strong> Makeup
+                            Application - 1.5hr{" "}
+                            <i className="mustHave">
+                                *DOES NOT INCLUDE LASHES*
+                            </i>
                         </li>
+                        <p className="mustHave">
+                            <i>*MUST HAVE COMPLETED BRIDE TRIAL*</i>
+                        </p>
                     </ul>
-                    <p>
-                        Total For Mother of Bride: <strong>$85</strong>
-                    </p>
                 </div>
                 {/* Bridesmaid Options */}
                 <div className="optionsContainer">
@@ -92,20 +97,14 @@ export default function BridalMakeupCard() {
                         <strong>Bridesmaid Options</strong>
                     </h4>
                     <p>
-                        <i>*up to 3 bridesmaids*</i>
+                        <i className="mustHave">*UP TO 3 BRIDESMAID*</i>
                     </p>
                     <ul className="bridalListContainer">
                         <li>
-                            <strong>$110/per person -</strong> Lash and Makeup
-                            Application - 45 mins
+                            <strong>Starting at $110/per person -</strong> Lash
+                            and Makeup Application - 45 mins
                         </li>
                     </ul>
-                    <p>
-                        Total For 2 Bridesmaids: <strong>$220</strong>
-                    </p>
-                    <p>
-                        Total For 3 Bridesmaids: <strong>$330</strong>
-                    </p>
                 </div>
                 {/* Bridal Package */}
                 <div className="optionsContainer">
@@ -122,11 +121,12 @@ export default function BridalMakeupCard() {
                         <li>Mother of Bride - 1hr</li>
                         <li>Bridesmaids - 3hrs</li>
                     </ul>
+                    <strong>Starting at $585</strong>
                     <p>
-                        <i>*includes lashes*</i>
+                        <i className="mustHave">*INCLUDES LASHES*</i>
                     </p>
-                    <p>
-                        Total For Bridal Package: <strong>$850</strong>
+                    <p className="mustHave">
+                        <i>*MUST HAVE COMPLETED BRIDE TRIAL*</i>
                     </p>
                 </div>
             </div>

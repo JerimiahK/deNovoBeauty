@@ -43,7 +43,8 @@ export default function EditorialMakeupCard() {
                         prices and options will vary depending on project and
                         budget size. I am willing to work with you on your
                         budget so please don't hesitate to reach out and contact
-                        me to discuss a project!
+                        me to discuss a project! Projects could include
+                        corporate head shots, makeup features, and more!
                     </p>
                 </div>
             </div>
