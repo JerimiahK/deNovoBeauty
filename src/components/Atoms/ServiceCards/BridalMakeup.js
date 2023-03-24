@@ -60,11 +60,11 @@ export default function BridalMakeupCard() {
                     </h4>
                     <ul className="bridalListContainer">
                         <li>
-                            <strong>$100 -</strong> Bride <strong>ONLY</strong>,
+                            <strong>Starting at $100 -</strong> Bride <strong>ONLY</strong>,
                             Lash and Makeup Application - 1.5hr
                         </li>
                         <li>
-                            <strong>$150 -</strong> Bride Trial - 2hr
+                            <strong>Starting at $150 -</strong> Bride Trial - 2hr
                         </li>
                     </ul>
                     <p>
