@@ -40,20 +40,27 @@ export default function PersonalMakeupCard() {
                     </h4>
                     <ul className="personalListContainer">
                         <li>
-                            <strong>$85 -</strong> Basic Makeup application -
-                            1hr <i>*lashes not included*</i>
+                            <strong>Starting at $85 -</strong> Personal makeup
+                            is individual makeup for any event! Whether you're
+                            going to prom, a dinner, a party, or a concert, I
+                            have the makeup look for you! It'll last all night!
+                            This service doesn't include lashes, but you can add
+                            them for an additional fee! - 1hr{" "}
+                            <i className="mustHave">*lashes not included*</i>
                         </li>
                     </ul>
                 </div>
                 {/* GLAM Application */}
                 <div className="optionsContainer">
                     <h4>
-                        <strong>GLAM Application</strong>
+                        <strong>Glam Personal Event</strong>
                     </h4>
                     <ul className="personalListContainer">
                         <li>
-                            <strong>$125 -</strong> GLAM application - 1.5hr{" "}
-                            <i>*lashes included*</i>
+                            <strong>$125 -</strong> Want to go all out for your
+                            big event? This service can include big lashes,
+                            graphic liner, and more! We take extra time to give
+                            you extra GLAM! - 1.5hr <i className="mustHave">*lashes included*</i>
                         </li>
                     </ul>
                 </div>

@@ -26,50 +26,68 @@ export default function Virtual_PersonalCard() {
                 </h2>
                 <div className="optionsContainer">
                     <h4>
-                        <strong>Skincare Product Virtual Session</strong>
+                        <strong>Virtual Skincare Consultation</strong>
                     </h4>
                     <ul className="virtualListContainer">
                         <li>
-                            <strong>$30 -</strong> Virtual Skincare
-                            Consultation. Recommend products based on concerns,
-                            budget, and current routine.
+                            <strong>$30 -</strong> Do you feel like your
+                            skincare isn't doing much? Ask an expert! We will
+                            have a Zoom meeting about your skincare routine and
+                            your concerns! I will recommend products based on
+                            your budget and current skin condition! This is a
+                            great, easy service that breaks down your routine
+                            and see what we can do to enhance it!
                         </li>
                     </ul>
                 </div>
                 <div className="optionsContainer">
                     <h4>
-                        <strong>Makeup Product Virtual Session</strong>
+                        <strong>Virtual Makeup Consultation</strong>
                     </h4>
                     <ul className="virtualListContainer">
                         <li>
-                            <strong>$30 -</strong> Virtual Makeup Consultation.
-                            Recommend products based on concerns, budget, and
-                            current routine.
+                            <strong>$45 -</strong> Do you feel like you might
+                            have the wrong makeup or that you're not sure if
+                            it's the right product for you? Ask away! I am more
+                            than happy to go over your current makeup routine to
+                            make sure your product is right for you, and we can
+                            make simple adjustments! We won't mess with anything
+                            you love, and we'll change what you don't like!
                         </li>
                     </ul>
                 </div>
                 <div className="optionsContainer">
                     <h4>
-                        <strong>Makeup Tutorial Virtual Session</strong>
+                        <strong>Virtual Makeup Tutorial</strong>
                     </h4>
                     <ul className="virtualListContainer">
                         <li>
-                            <strong>$75 -</strong> Virtual Makeup Tutorial.
-                            Side-by-Side application, use your own product,
-                            learn new techniques!
+                            <strong>$75 -</strong> Want to do a 1-on-1 makeup
+                            tutorial from the comfort of your home? This is the
+                            service for you! This service includes a
+                            side-by-side application over Zoom! You can use your
+                            products and what you have available to you to
+                            create a new daily look! I'll watch how you apply
+                            your makeup as we do it together to give you some
+                            tips and tricks!
                         </li>
                     </ul>
                 </div>
                 <div className="optionsContainer">
                     <h4>
-                        <strong>Personal Shopper Session</strong>
+                        <strong>Personal Shopping Experience</strong>
                     </h4>
                     <ul className="virtualListContainer">
                         <li>
-                            <strong>$75 -</strong> Don't know what to buy? Take
-                            a licensed makeup artist shopping with you! I will
-                            pick out products based on your concerns, budget,
-                            and skill level!
+                            <strong>$75 -</strong> Do makeup stores give you a
+                            headache and overwhelm you with the amount of
+                            product to choose from? Take a licensed makeup
+                            artist with you who has worked at a makeup store! We
+                            will go around the store together to find which
+                            products would work best for you with no pressure to
+                            having to purchase anything right then and there! I
+                            will work with your budget and go to your location
+                            of choice.
                         </li>
                     </ul>
                 </div>

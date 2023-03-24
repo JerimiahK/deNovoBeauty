@@ -60,16 +60,30 @@ export default function BridalMakeupCard() {
                     </h4>
                     <ul className="bridalListContainer">
                         <li>
-                            <strong>Starting at $100 -</strong> Bride{" "}
-                            <strong>ONLY</strong>, Lash and Makeup Application -
-                            1.5hr
+                            <strong>
+                                Bride <strong>ONLY</strong> - 1.5hr - Starting
+                                at $100 -
+                            </strong> Congratulations! It's your big day, and I am so
+                            excited to be a part of it! This makeup service is
+                            just for the bride, and the bride only! After
+                            completing our bride trial, we get you ready for
+                            your perfect wedding day! The service includes
+                            lashes and a 1hr and 30 min application! Travel fee
+                            is based on location.
                         </li>
                         <p className="mustHave">
                             <i>*MUST HAVE COMPLETED BRIDE TRIAL*</i>
                         </p>
                         <li>
-                            <strong>Starting at $150 -</strong> Bride Trial -
-                            2hr
+                            <strong>
+                                Bride Trial - 2hr - Starting at $150 -
+                            </strong>{" "}
+                            The Bride Trial is for brides trying out their
+                            makeup looks for their big day! This service has
+                            extra time built in to try different techniques and
+                            products to create a beautiful, flawless wedding
+                            look that will last all day and night! This service
+                            also includes lashes which you can pick from!
                         </li>
                     </ul>
                 </div>
@@ -80,12 +94,18 @@ export default function BridalMakeupCard() {
                     </h4>
                     <ul className="bridalListContainer">
                         <li>
-                            <strong>Starting at $185 -</strong> Makeup
-                            Application - 1.5hr{" "}
-                            <i className="mustHave">
-                                *DOES NOT INCLUDE LASHES*
-                            </i>
+                            <strong>
+                                Bride and Mother of the Bride - 1.5hr - Starting
+                                at $185 -
+                            </strong>{" "}
+                            This service is for the mother of the bride and the
+                            beautiful bride herself! Get your glam on together
+                            for your most important day! The service includes
+                            lashes for the bride. Lashes for the mother of the
+                            bride can be requested for an additional cost.
+                            Travel fee is based on location.
                         </li>
+                        <i className="mustHave">*DOES NOT INCLUDE LASHES*</i>
                         <p className="mustHave">
                             <i>*MUST HAVE COMPLETED BRIDE TRIAL*</i>
                         </p>
@@ -101,8 +121,15 @@ export default function BridalMakeupCard() {
                     </p>
                     <ul className="bridalListContainer">
                         <li>
-                            <strong>Starting at $110/per person -</strong> Lash
-                            and Makeup Application - 45 mins
+                            <strong>
+                                Bridesmaids - 45mins - Starting at $110/per
+                                person -
+                            </strong>{" "}
+                            This service is per bridesmaid up to three! If you
+                            have more than three, I suggest taking a look at our
+                            Wedding Party service! This includes lashes for each
+                            bridesmaid. Each bridesmaid will have a look that
+                            has been approved by the bride for her big day!
                         </li>
                     </ul>
                 </div>
@@ -121,6 +148,16 @@ export default function BridalMakeupCard() {
                         <li>Mother of Bride - 1hr</li>
                         <li>Bridesmaids - 3hrs</li>
                     </ul>
+                    <p>
+                        Everyone gets the glam experience! This service includes
+                        the wedding day application, the mother of the bride,
+                        and up to four bridesmaids! Each application comes with
+                        lashes, if requested by the bride! Bridesmaids can be
+                        added on at an extra cost. Contact me for your quote if
+                        you have more than 4 bridesmaids! Check out our Group
+                        and Party service if you want to do a bachelorette party
+                        too!
+                    </p>
                     <strong>Starting at $585</strong>
                     <p>
                         <i className="mustHave">*INCLUDES LASHES*</i>
