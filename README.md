@@ -3,6 +3,7 @@ This project is a front end React application for the start up beauty company De
 
 ## Usage 
 At this time the project is not open to outside contribution, but please feel free to browse the code base for ideas or any purpose. The website is currently under development, but a link will be provided in this README once the website has launched and can be accessed. 
+Link to website: https://denovobeautyllc.com/
 
 ## Contributors
 <a href="https://github.com/JerimiahK">
