@@ -29,7 +29,10 @@ export default function PartyMakeupCard() {
                         <p>
                             Party & Group Makeup prices will vary by the number
                             of applications and the amount of time that you want
-                            to book.
+                            to book. Group and party makeup can include birthday
+                            parties, group tutorials, bachelorette parties,
+                            team-building events and many more! Please contact
+                            me for your quote!
                         </p>
                     </div>
                 </div>

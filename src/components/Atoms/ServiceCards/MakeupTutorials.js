@@ -30,9 +30,15 @@ export default function MakeupTutorialsCard() {
                     </h4>
                     <ul className="tutorialListContainer">
                         <li>
-                            <strong>$125 -</strong> Tutorial, Full face of
-                            product, techniques, comes with lash application and
-                            tutorial.
+                            <strong>Starting at $125 -</strong> Do you feel like
+                            you struggle with makeup application? I'll teach you
+                            tips and tricks to elevate your at-home application!
+                            I will explain every step in this in-depth service!
+                            This includes daily makeup application for a new
+                            routine, or try out different products that you've
+                            seen going viral on TikTok! Beginner tutorials also
+                            include a lash application and tutorial, if
+                            requested, for an additional cost!
                         </li>
                     </ul>
                 </div>
@@ -42,9 +48,13 @@ export default function MakeupTutorialsCard() {
                     </h4>
                     <ul className="tutorialListContainer">
                         <li>
-                            <strong>$200 -</strong> Deep dive into the latest
-                            products and techniques used by industry
-                            professionals. Lashes are included in this tutorial.
+                            <strong>Starting at $200 -</strong> Do you want to
+                            do those crazy Tiktok graphic liners but don't know
+                            where to start? Feel like you know the basics but
+                            want to take it up a notch? Let me help you out!
+                            This service is for those who already feel confident
+                            in their makeup skills and want to change things up
+                            and learn more in-depth techniques.
                         </li>
                     </ul>
                 </div>

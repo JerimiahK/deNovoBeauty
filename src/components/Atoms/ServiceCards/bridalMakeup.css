@@ -12,6 +12,10 @@
     width: 90vw;
 }
 
+.mustHave {
+    font-size: 70%;
+}
+
 .servicesCarousel {
     box-shadow: 12px 10px 10px 0px #403b42;
     display: flex;
