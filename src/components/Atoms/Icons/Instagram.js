@@ -8,7 +8,7 @@ export default function Instagram() {
             className="socialButton"
             startIcon={<InstagramIcon className="socialIcon" />}
             target="_blank"
-            href="https://www.instagram.com/denovo.beauty/"
+            href="https://www.instagram.com/denovobeauty_/"
         />
     );
 }
