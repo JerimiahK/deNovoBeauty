@@ -1,25 +1,17 @@
-.connectInfoContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90vw;
-    height: 100%;
+.connectContact {
     text-align: center;
+    width: 90vw;
     margin: 0% 0 10% 0;
     background-color: #cab3ee;
     box-shadow: 0 0 12px 6px #bbbbbb;
     color: #000;
     border-radius: 3%;
     padding: 5%;
-}
-
-.connectBoxHeaderText {
-    /* text-shadow: 3px 4px 6px #403b42; */
-    font-size: 300%;
+    font-size: 180%;
 }
 
 @media screen and (max-width: 1200px) {
-    .connectInfoContainer {
+    .connectContact {
         width: 100vw;
         border-radius: 0;
         margin: 10% 0 10% 0;
